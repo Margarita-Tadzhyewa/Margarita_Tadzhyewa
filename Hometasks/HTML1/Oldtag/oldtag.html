@@ -6,29 +6,41 @@
 </head>
 <style type="text/css">
     TABLE {
-     width: 1000px; /* Ширина таблицы */
-     border-collapse: collapse; /* Убираем двойные линии между ячейками */
+     width: 1000px; 
+     border-collapse: collapse; 
     }
     TD, TH {
-     padding: 10px; /* Поля вокруг содержимого таблицы */
-     border: 1px solid black; /* Параметры рамки */
+     padding: 10px; 
+     border: 1px solid black; 
     }
     
    </style>
 <body bgcolor="#E6E6FA" >
-    <h1 align="center">Old tags</h1>
-
+    <h1 align="center" style="color: #8A2BE2;">Old tags</h1>
+<a href="../../../index.html">Переход на страницу с дз</a> <br>
     <table>
         <thead>
-          <tr>
+          <tr style="text-transform: uppercase; font-size: larger;">
             <th>Tag</th>
             <th>Description</th>
             <th>Example</th>
           </tr>
           <tbody align="left">
             <tr>
-                <th>PRE</th>
-                <th> <p>Элемент pre определяет блок предварительно форматированного текста. Такой текст отображается обычно моноширинным шрифтом и со всеми пробелами между словами. По умолчанию, любое количество пробелов идущих в коде подряд, на веб-странице показывается как один. Тег pre позволяет обойти эту особенность и отображать текст как требуется разработчику.</p></th>
+                <th style="font-style: italic; color: #8A2BE2;">DL, DT, DD</th>
+                <th> Тег <span style="font-style: italic; text-decoration: underline;">dl</span> входит в тройку элементов <span style="font-style: italic; text-decoration: underline;">dl, dt, dd,</span> предназначенных для создания списка определений. Каждый такой список начинается с контейнера <span style="font-style: italic; text-decoration: underline;">dl</span>, куда входит тег <span style="font-style: italic; text-decoration: underline;">dt</span> создающий термин и тег <span style="font-style: italic; text-decoration: underline;">dd</span> задающий определение этого термина. </th>
+                <th><dl>
+                    <dt>HTML</dt>
+                    <dd>HTML (от англ. HyperText Markup Language — «язык гипертекстовой разметки») — стандартизированный язык гипертекстовой разметки документов для просмотра веб-страниц в браузере. </dd>
+                    <dt>CSS</dt>
+                    <dd>CSS (англ. Cascading Style Sheets «каскадные таблицы стилей») — формальный язык декодирования и описания внешнего вида документа.</dd>
+                   </dl>
+
+                </th>
+            </tr>
+            <tr>
+                <th style="font-style: italic; color: #8A2BE2;">PRE</th>
+                <th> <p>Элемент <span style="font-style: italic; text-decoration: underline;">pre</span> определяет блок предварительно форматированного текста. Такой текст отображается обычно моноширинным шрифтом и со всеми пробелами между словами. По умолчанию, любое количество пробелов идущих в коде подряд, на веб-странице показывается как один. Тег <span style="font-style: italic; text-decoration: underline;">pre</span> позволяет обойти эту особенность и отображать текст как требуется разработчику.</p></th>
                 <th><pre>
                      раз два
                      три
@@ -37,8 +49,8 @@
                 </pre></th>
             </tr>
             <tr>
-                <th>CODE</th>
-                <th><p>Тег code предназначен для отображения одной или нескольких строк текста, который представляет собой программный код.</p></th>
+                <th style="font-style: italic; color: #8A2BE2;">CODE</th>
+                <th><p>Тег <span style="font-style: italic; text-decoration: underline;">code</span> предназначен для отображения одной или нескольких строк текста, который представляет собой программный код.</p></th>
                 <th><p><code>
                     function checkParent (src, dest) {<Br>
                      while (src != null) {<Br>
@@ -49,39 +61,39 @@
                     }</code></p></th>
             </tr>
             <tr>
-                <th>TT</th>
-                <th><p >Контейнер tt отображает текст моноширинным текстом. Этот тег относится к группе тегов физического форматирования.</p></th>
+                <th style="font-style: italic; color: #8A2BE2;">TT</th>
+                <th><p >Контейнер <span style="font-style: italic; text-decoration: underline;">tt</span> отображает текст моноширинным текстом. Этот тег относится к группе тегов физического форматирования.</p></th>
                 <th><p><tt>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</tt></p></th>
             </tr>
             <tr>
-                <th>KBD</th>
-                <th><p>Тег kbd используется для обозначения текста, который набирается на клавиатуре или для названия клавиш. Браузеры обычно помечают текст в контейнере kbd моноширинным шрифтом.</p></th>
+                <th style="font-style: italic; color: #8A2BE2;">KBD</th>
+                <th><p>Тег <span style="font-style: italic; text-decoration: underline;">kbd</span> используется для обозначения текста, который набирается на клавиатуре или для названия клавиш. Браузеры обычно помечают текст в контейнере <span style="font-style: italic; text-decoration: underline;">kbd</span> моноширинным шрифтом.</p></th>
                 <th> Для закрашивания выделенной области фоновым цветом 
                     воспользуйтесь комбинацией 
                     <kbd>&lt;Ctrl&gt;+&lt;Backspace&gt;</kbd> или 
                     <kbd>&lt;Ctrl&gt;+&lt;Delete&gt;</kbd></th>
             </tr>
             <tr>
-                <th>VAR</th>
-                <th>Тег var используется для выделения переменных компьютерных программ. Браузеры обычно помечают текст в контейнере var курсивным начертанием.</th>
+                <th style="font-style: italic; color: #8A2BE2;">VAR</th>
+                <th>Тег <span style="font-style: italic; text-decoration: underline;">var</span> используется для выделения переменных компьютерных программ. Браузеры обычно помечают текст в контейнере <span style="font-style: italic; text-decoration: underline;">var</span> курсивным начертанием.</th>
                 <th>В данном примере делается запрос к базе данных для получения поля <var>content_title</var> 
                     из таблицы <var>content</var>, причем должно удовлетворяться условие </th>
             </tr>
             <tr>
-                <th>SUP</th>
+                <th style="font-style: italic; color: #8A2BE2;">SUP</th>
                 <th>Отображает шрифт в виде верхнего индекса. Шрифт при этом отображается выше базовой линии текста и уменьшенного размера.</th>
                 <th><i>X <sup><small>n</small></sup> + Y <sup><small>n</small></sup> 
                     = Z <sup><small>n</small></sup></i></th>
             </tr>
             <tr>
-                <th>SUB</th>
+                <th style="font-style: italic; color: #8A2BE2;">SUB</th>
                 <th>Отображает шрифт в виде нижнего индекса. Текст при этом располагается ниже базовой линии остальных символов строки и уменьшенного размера.</th>
                 <th>СН<sub>3</sub>СНО + NH<sub>2</sub>OH = 
                     CH<sub>3</sub>C(=NOH)H + H<sub>2</sub></th>
             </tr>
             <tr>
-                <th>BLOCKQUOTE</th>
-                <th>Тег blockquote предназначен для выделения длинных цитат внутри документа. Текст, обозначенный этим тегом, традиционно отображается как выровненный блок с отступами слева и справа (примерно по 40 пикселов), а также с отбивкой сверху и снизу.</th>
+                <th style="font-style: italic; color: #8A2BE2;">BLOCKQUOTE</th>
+                <th>Тег <span style="font-style: italic; text-decoration: underline;">blockquote</span> предназначен для выделения длинных цитат внутри документа. Текст, обозначенный этим тегом, традиционно отображается как выровненный блок с отступами слева и справа (примерно по 40 пикселов), а также с отбивкой сверху и снизу.</th>
                 <th>Однажды Гоголь сказал: <blockquote>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
                     sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat 
@@ -90,38 +102,38 @@
                    </blockquote></th>
             </tr>
             <tr>
-                <th>Q</th>
-                <th>Тег q используется для выделения в тексте цитат. Содержимое контейнера автоматически отображается в браузере в кавычках.</th>
+                <th style="font-style: italic; color: #8A2BE2;">Q</th>
+                <th>Тег <span style="font-style: italic; text-decoration: underline;">q</span> используется для выделения в тексте цитат. Содержимое контейнера автоматически отображается в браузере в кавычках.</th>
                 <th>Станислав Лец утверждал: <q>Чаще всего выход там, где был 
                     вход</q></th>
             </tr>
             <tr>
-                <th>INS</th>
-                <th>Тег ins предназначен для выделения текста, который был добавлен в новую версию документа. Подобное форматирование позволяет отследить, какие изменения в тексте документа были сделаны.</th>
+                <th style="font-style: italic; color: #8A2BE2;">INS</th>
+                <th>Тег <span style="font-style: italic; text-decoration: underline;">ins</span> предназначен для выделения текста, который был добавлен в новую версию документа. Подобное форматирование позволяет отследить, какие изменения в тексте документа были сделаны.</th>
                 <th>в последующих версиях этот 
                     недостаток был устранен <ins>подход разработчиков этого 
                     браузера был изменен</ins></th>
             </tr>
             <tr>
-                <th>DEL</th>
-                <th>Тег del используется для выделения текста, который был удален в новой версии документа.</th>
+                <th style="font-style: italic; color: #8A2BE2;">DEL</th>
+                <th>Тег <span style="font-style: italic; text-decoration: underline;">del</span> используется для выделения текста, который был удален в новой версии документа.</th>
                 <th>в последующих версиях <del>этот 
                     недостаток был устранен</del> </th>
             </tr>
             <tr>
-                <th>ADDRESS</th>
-                <th>Тег address предназначен для хранения информации об авторе и может включать в себя любые элементы HTML вроде ссылок, текста, выделений и т.д.</th>
+                <th style="font-style: italic; color: #8A2BE2;">ADDRESS</th>
+                <th>Тег <span style="font-style: italic; text-decoration: underline;">address</span> предназначен для хранения информации об авторе и может включать в себя любые элементы HTML вроде ссылок, текста, выделений и т.д.</th>
                 <th><address>
                     Памятка по старым тегам была сделана Таджиевой М. Б.</address></th>
             </tr>
             <tr>
-                <th>NOBR</th>
-                <th>Тег nobr уведомляет браузер отображать текст без переносов. </th>
+                <th style="font-style: italic; color: #8A2BE2;">NOBR</th>
+                <th>Тег <span style="font-style: italic; text-decoration: underline;">nobr</span> уведомляет браузер отображать текст без переносов. </th>
                 <th><p><nobr>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</nobr> </p></th>
             </tr>
             <tr>
-                <th>WBR</th>
-                <th>Тег wbr указывает браузеру место, где допускается делать перенос строки в тексте, если этого требует ширина родительского элемента.</th>
+                <th style="font-style: italic; color: #8A2BE2;">WBR</th>
+                <th>Тег <span style="font-style: italic; text-decoration: underline;">wbr</span> указывает браузеру место, где допускается делать перенос строки в тексте, если этого требует ширина родительского элемента.</th>
                 <th><p>метоксихлор<wbr>диэтиламино<wbr>метил<wbr>бутил<wbr>амино<wbr>акридинметоксихлор<wbr>диэтиламино<wbr>метил<wbr>бутил<wbr>амино<wbr></p></th>
             </tr>
           </tbody>
