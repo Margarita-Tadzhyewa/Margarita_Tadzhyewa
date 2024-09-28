@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oldtag</title>
+</head>
+<body>
+    <h1 style="text-align: center; ">Заголовок первого уровня</h1>
+    <p style="font-weight: bold;">
+        Предварительно форматированный текст:
+    </p>
+    <pre>
+ x | o |
+‐‐‐‐‐‐‐‐‐‐‐
+  | х |
+‐‐‐‐‐‐‐‐‐‐‐
+ o | x | o
+    </pre>
+<hr>
+    <p style="font-weight: bold;">Тег address</p>
+    <address>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</address>
+    <hr>
+
+    <p style="font-weight: bold;">Работа со строчными и блоковыми цитатами</p>
+    <p>Пожелания автора: <br>
+        <del style="color: red;">Данный текст убрать из монографии</del> и заменить его на <ins style="color: blue;">вновь помещённый текст</ins>.
+        </p>
+    <hr>
+
+    <p style="font-weight: bold;">Работа со строчными и блоковыми цитатами</p>
+    <p>
+        Цитата короткая: <br>
+        <span style="font-style: italic;">И всё­таки она вертится!</span> <br> </p>
+
+        <p> Цитата занимающая несколько предложений: <br>
+        <blockquote>
+            О сколько нам открытий чудных <br>
+            Готовят просвещенья дух <br>
+            И опыт, сын ошибок трудных, <br>
+            И гений, парадоксов друг, <br>
+            И случай, бог изобретатель... <br>
+        </blockquote>
+    </p>
+
+    <hr>
+    <p style="font-weight: bold;">Семантические и функциональные строчные теги</p>
+    <p><b>Тэг &ltSTRONG&gt делает данный фрагмент текста более важным.</b> <i>Тэг &ltem&gt менее важным</i>.
+        В то время как теги &ltb&gt и &lti&gt делают текст просто <b>полужирным</b> и <i>курсивом</i> соответственно.</p>
+    <hr>
+    <p style="font-weight: bold;">Теги форматирования машинного языка</p>
+    <p>При выполнении программного кода на языке PERL: <br>
+        <code>
+            #!/usr/local/bin/perl <br>
+            print "Content‐type: text/html\n\n"; <br>
+            print "&ltH1&gtHello World&lt/H1&gt\n"; <br>
+        </code>
+        <p>Программа выведет:</p> 
+        <p><code>Hello, World!</code></p> 
+        Однако в браузере у нас будет отображаться результат выполнения этой программы: <br>
+        <h2>Hello, World!</h2></p>
+    <hr>
+    <p style="font-weight: bold;">Комментарии и литералы(мнемоники) в HTML</p>
+    <p><pre>&lt!‐‐ это комментарий ‐‐&gt;
+        &lt!‐‐ и это также комментарий,
+        занимающий более одной строки ‐‐&gt</pre></p>
+
+    <hr>
+    <p style="font-weight: bold;">Теги над­ и подстрочных символов</p>
+    <p style="text-align: center;">Магазин работает: <br>
+        c 08<sup style="text-decoration: underline;">30</sup> до 18<sup style="text-decoration: underline;">30</sup> <br>
+        обед с 13<sup style="text-decoration: underline;">00</sup> до 14<sup style="text-decoration: underline;">00</sup> <br>
+        выходной: <span style="text-decoration: underline;">суббота, воскресенье</span></p>
+    <hr>
+   
+    <p style="font-weight: bold;">Акроним и курсив</p>
+    <p>ТФ: Y(<i>x</i>)=e<sup>-­iπx</sup>+log<sub><i>x</i></sub>4</p>
+    <hr>
+    <p style="font-weight: bold;">Тег small внтури абзаца</p>
+    </body>
+</html>
