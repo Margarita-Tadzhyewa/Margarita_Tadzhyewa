@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Bad+Script&family=Cabin+Condensed:wght@400;500;600;700&family=Kablammo&family=Noto+Sans+Kannada:wght@100..900&family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Bad+Script&family=Cabin+Condensed:wght@400;500;600;700&family=Kablammo&family=Noto+Sans+Kannada:wght@100..900&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .top{
+            background: rgb(141, 143, 196);
+            font-family: 'Poppins', sans-serif;
+            /* text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.6); */
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+        .bottom{
+            background:  rgb(141, 143, 196);
+            font-family: 'Poppins', sans-serif;
+            text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.6);
+            text-align: center;
+            font-size: 30px;
+            color: rgba(255, 255, 255);
+        }
+        .menu{
+            width: 200px;
+            float: left;
+            padding: 30px;
+            color:  rgb(255, 255, 255);
+            font-size: 25px;
+            font-family: 'Poppins', sans-serif;
+            text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.6);
+        }
+        .main{
+            margin-left: 220px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            background: url('../HTML_CSS5/images/right.png') repeat-y right top rgba(141, 143, 196, 0.5);
+            padding: 20px;
+            padding-right: 65px;
+            
+        }
+        .button{
+            font-family: 'Poppins', sans-serif;
+            float: left;
+            margin: 20px 10px 20px 10px;
+            width: 100px;
+            padding: 7px 0;
+            background: #363a43;
+            font-size: 17px;
+            border-radius: 5px;
+        }
+        li{
+            list-style: none; /* Убираем исходные маркеры */
+            padding-left: 1px; /* Смещаем текст вправо */ 
+        }
+        .block{
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: rgb(0, 0, 0);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {background-color: #ffffff;}
+        .block:hover .dropdown-content {display: block;}
+        .block:hover .dropbtn {background-color: #abdbac;}
+    </style>
+</head>
+<body>
+
+    <div class="top">
+        <div class="block">
+            <button class="dropbth"><p class="button">Services</p></button>
+                <div class="dropdown-content">
+                    <a href="">Link1</a>
+                    <a href="">Link1</a>
+                    <a href="">Link1</a>
+                </div>
+            <div class="button">Decisions</div>
+            <div class="button">Industries</div>
+            <div class="button">Portfolio</div>
+            <div class="button">Insights</div>
+            <div class="button">Contacts</div>
+        </div>
+        <div style="clear: both;"></div>
+        <!-- <p>LeverX</p> -->
+    </div>
+
+
+    <div style="background: url('images/var1.png') no-repeat 0 100% #363a43;">
+        <div class="menu">
+            <ul>
+                <li>SAP</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>C#</li>
+                <li>Python</li>
+                <li>Pascal</li>
+                <li>NodeJS</li>
+                <li>HTML/CSS</li>
+                <li>VS</li>
+            </ul>
+        </div>
+        
+        <!-- <div style="float: right;">
+            <img src="../HTML_CSS5/images/right.png" alt="X">
+        </div> -->
+        <div class="main">
+            <div>
+                <img src="../HTML_CSS5/images/LeverX.png" alt="LeverX" style="float: left; margin-right: 20px;" >
+            </div>
+            <p>LeverX is a global system integrator and a top-tier SAP consultancy dedicated to delivering professional, customer-centric solutions and services. Founded in 2003 on the principles of technological excellence and personalized service,
+             LeverX has established itself as a trusted partner in the digital transformation journey of Fortune 500 clients worldwide.</p>
+            <br>
+             <p>We’ve accumulated a wealth of knowledge in SAP and custom software development to support you every step of the way, regardless of the complexity of your project.</p>
+            <br>
+             <p>We offer a complete suite of SAP-related services, ensuring a seamless journey from initial consultation and business analysis to knowledge transfer and post-launch support.</p>
+             <br>
+             <p>Our custom development teams adeptly tackle diverse engineering needs, whether building solutions from scratch or enhancing ongoing projects.</p>
+             <br>
+             <p>LeverX is a global system integrator and a top-tier SAP consultancy dedicated to delivering professional, customer-centric solutions and services. Founded in 2003 on the principles of technological excellence and personalized service,
+                LeverX has established itself as a trusted partner in the digital transformation journey of Fortune 500 clients worldwide.</p>
+            <br>
+             <div style="clear: both"></div>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+        <p>LEVERX</p>
+        <p>LEVERX</p>
+        <p>LEVERX</p>
+        <p>LEVERX</p>
+    </div>
+</body>
+</html>
+
