@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+  }
+tr.head td{
+    background: rgb(141, 143, 196);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.6);
+    font-size: 30px;
+}
+.menu{
+    width: 200px;
+    padding: 20px;
+    background: #363a43;
+    color:  rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.6);
+}
+
+.main{
+    padding: 0 70px 0 20px;
+    font-family: 'Poppins', sans-serif;
+    background: url('images/right.png') repeat-y right top rgb(102, 103, 136); 
+}
+
+.x{
+    width: 50px;
+    background: #363a43; 
+}
+
+li{
+    list-style: none; /* Убираем исходные маркеры */
+    padding-left: 1px; /* Смещаем текст вправо */ 
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.head{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+tr.head{
+    height: 80px;
+}
