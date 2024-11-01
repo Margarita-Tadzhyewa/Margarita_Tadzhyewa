@@ -6,7 +6,7 @@
 }
 .container{
     /* border: solid rgb(0, 0, 0) 1px; */
-    background: rgb(214, 133, 133);
+    /* background: rgb(214, 133, 133); */
     margin: 0 auto;
     width: 1120px;
 }
@@ -16,7 +16,7 @@
     height: 400px;
     width: 1528px;
     margin-top: 52px;
-    background: rgb(190, 109, 109);
+    /* background: rgb(190, 109, 109); */
 }
 
 .first_font{
@@ -33,6 +33,70 @@
 
 .header div.container{
     height: 85px;
+}
+
+[alt="Logo"]{
+    margin: 13px 86px 0 0;
+    float: left;
+}
+
+[alt="burger"]{
+    margin: 33px 0 0 24px;
+    float: right;
+}
+
+div.header button{
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    float: right;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 21px 30px 0 0;
+    padding: 12px;
+    border: solid 1px #6A6A6A;
+}
+.header div.container div:nth-of-type(2){
+    margin: 24px 11px 0;
+    float: right;
+    height: 38px;
+    background: #E3E3E3;
+    width: 1px;
+}
+
+div.list ul{
+    padding-top: 33px;
+}
+
+div.list>ul li{
+    margin-right: 42px;
+    float: left;
+    list-style-type: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+div.list>ul li:nth-of-type(2){
+    color: #EC1C24;
+    margin-right: 42px;
+    float: left;
+    list-style-type: none;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+div.list>ul li:last-of-type{
+    float: none;
+
+}
+
+[alt="icon_call"]{
+    float: right;
+    margin-top: 27px;
+    margin-right: 25px;
 }
 
 .top{
@@ -62,7 +126,7 @@ div.top p:last-child{
 
 .container_3{
     margin-top: 63px;
-    background: red;
+    /* background: red; */
     height: 340px;
 }
 
@@ -334,12 +398,12 @@ p.p_review{
 
 div.cont_2{
     margin: 62px 0 32px 0;
-    background: #EC1C24;
+    /* background: #EC1C24; */
     height: 256px;
 }
 
 div.cont_3{
-    background: #EC1C24;
+    /* background: #EC1C24; */
     height: 256px;
 }
 
@@ -347,7 +411,7 @@ div.big{
     border-radius: 30px;
     width: 544px;
     height: 256px;
-    background-color: rgb(22, 44, 168);
+    /* background-color: rgb(22, 44, 168); */
     float: left;
     padding: 58px 250px 57px 28px;
 }
@@ -358,7 +422,7 @@ div.small{
     border-radius: 30px;
     height: 256px;
     width: 256px;
-    background: rgb(69, 31, 173);
+    /* background: rgb(69, 31, 173); */
     float: left;
 }
 
@@ -459,14 +523,14 @@ div.about_us div.container{
 }
 
 div.cont_5{
-    background: #a71cec;
+    /* background: #a71cec; */
     height: 360px;
 }
 
 div.cont_6{
     margin-top: -60px;
     height: 275px;
-    background: #a71cec;
+    /* background: #a71cec; */
 }
 
 [alt="team"]{
@@ -515,7 +579,7 @@ div.cont_6 p:last-of-type{
 div.contacts{
     border-top: 1px solid #D4D4D4;
     border-bottom: 1px solid #D4D4D4;
-    background: #a085ae;
+    /* background: #a085ae; */
     margin-top: 80px;
     height: 216px;
 }
@@ -523,7 +587,7 @@ div.contacts{
 div.social_media{
     float: left;
     margin: 65px 67px 64px 54px;
-    background: #a71cec;
+    /* background: #a71cec; */
     width: 262px;
     height: 87px;
 }
@@ -559,7 +623,7 @@ div.numbers{
     text-align: center;
     float: left;
     margin: 42px 30px 41px 20px;
-    background: #a71cec;
+    /* background: #a71cec; */
     width: 313px;
     height: 133px;
 }
@@ -593,7 +657,7 @@ div.address{
     width: 275px;
     height: 107px;
     margin: 55px 40px 54px 57px;
-    background: #a71cec;
+    /* background: #a71cec; */
 }
 
 div.address p:first-of-type{
@@ -625,7 +689,7 @@ div.bottom_form div.container{
 }
 
 div.bottom_form div.container div:nth-of-type(1){
-    background: red; 
+    /* background: red;  */
     font-size: 24px;
     width: 305px;
     float: left;
@@ -634,7 +698,7 @@ div.bottom_form div.container div:nth-of-type(1){
 }
 
 div.bottom_form div.container div:nth-of-type(2){
-    background: red; 
+    /* background: red;  */
     font-weight: 300;
     font-size: 16px;
     width: 171px;
@@ -726,7 +790,7 @@ div.bottom{
 
 ul.smedia_bottom{
     padding-left: 352px;
-    background: #6B6B6B;
+    /* background: #6B6B6B; */
     margin: 42px 0 30px 0;
 }
 
