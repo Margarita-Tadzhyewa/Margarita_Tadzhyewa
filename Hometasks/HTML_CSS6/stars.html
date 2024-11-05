@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Stars</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 100px 325px 0 0;
+        }
+        .Str { 
+            background: url('../../Lessons/images/star0.png') no-repeat; 
+            width: 75px;
+            height: 78px;
+            cursor: pointer;
+            float: right;
+        }
+
+        .Str:hover {
+            content: url('../../Lessons/images/star0.png');
+            cursor: pointer;
+        }
+
+        .Str:hover ~ .Str:before {
+            content: url('../../Lessons/images/star1.png');
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="stars">
+            <div class='Str'></div> 
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .Stars {
+            float: left;
+            justify-content: center;
+        }
+
+        .stars:hover {
+            color: aqua;
+            cursor: pointer;
+        }
+
+        .Stars .fa:hover ~ .fa:before {
+            color: black;
+        }
+
+        .Str { 
+            background: url('../../Lessons/images/star0.png'); 
+            cursor: pointer; 
+        }
+
+        .Str:hover { 
+            content: url('star1.png'); 
+        }
+    </style>
+
+    <body>
+        <div class='Stars'>
+            <div class='Str fa-star fa-4x'></div> 
+            <div class='Str fa-star fa-4x'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+        </div>
+
+    </body>
+
+        <!-- /* .Str { 
+            background: url('../../Lessons/images/star0.png'); 
+            width: 75px; 
+            height: 78px; 
+            cursor: pointer; 
+        }
+
+        .Str:hover { 
+            content: url('star1.png'); 
+        }
+         
+        .Str:hover ~ .Str:nth-child(1) { 
+            content: url('../../Lessons/images/star1.png'); width: 76px; height: 78px 
+        }
+        .Str:hover ~ .Str:nth-child(-n+2) { 
+            content: url('../../Lessons/images/star1.png'); width: 76px; height: 78px 
+        }
+
+        .Str:hover ~ .Str:nth-child(-n+3) {
+             content: url('../../Lessons/images/star1.png'); width: 76px; height: 78px 
+            }
+
+        .Str:hover ~ .Str:nth-child(-n+4) {
+             content: url('../../Lessons/images/star1.png'); width: 76px; height: 78px 
+            }
+
+        .Str:hover ~ .Str:nth-child(-n+5) { 
+            content: url('../../Lessons/images/star1.png'); width: 76px; height: 78px 
+        }
+
+        .Str:hover ~ .Str:nth-child(-n+6) { 
+            content: url('../../Lessons/images/star1.png'); width: 76px; height: 78px 
+        }
+
+        .Str:hover ~ .Str:nth-child(-n+7) { 
+            content: url('../../Lessons/images/star1.png'); width: 76px; height: 78px 
+        }
+
+        .Str:hover ~ .Str:nth-child(-n+8) { 
+            content: url('../../Lessons/images/star1.png'); width: 76px; height: 78px 
+        }
+
+
+        .Str {
+        float: right;
+        }
+
+        div.Stars{
+            padding-right: 325px;
+            background: green;
+            height: 400px;
+         }
+ 
+
+    </style>
+
+<body>
+        <div class='Stars'>
+            <div class='Str'></div> 
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+            <div class='Str'></div>
+        </div> */ -->
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a{
+            text-decoration: none;
+            color: green;
+        }
+
+        body > div{
+            padding: 14px 0 0 20px;
+            margin-bottom: 20px;
+            height: 50px;
+            background: rgb(201, 198, 198);
+        }
+
+        .first ul li{
+            padding-right: 20px;
+            border-right: 3px red solid;
+            list-style-type: none;
+            float: left;
+            margin: 0 10px 0 20px;
+        }
+
+        .second p{
+            padding-right: 20px;
+            border-right: 3px red solid;
+            float: left;
+            margin: 0 10px 0 20px;
+        }
+
+        .third div{
+            padding-right: 20px;
+            border-right: 3px red solid;
+            float: left;
+            margin: 0 10px 0 20px;
+        }
+
+        .fourth div:nth-of-type(odd){
+            float: left;
+            margin: 0 20px 0 20px;
+        }
+
+        .fourth div:nth-of-type(even){
+            margin-right: 10px;
+            height: 18px;
+            width: 3px;
+            background: red;
+            float: left;
+        }
+
+        .fifth a{
+            padding-right: 20px;
+            border-right: 3px red solid;
+            float: left;
+            margin: 0 10px 0 20px;
+        }
+
+        a:hover{
+            color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p>С помощью <b>списка</b>. Разделители с помощью <b>border. </b>. Надо убирать значок списка</p>
+    <div class="first">
+        <ul>
+            <li><a href="https://www.deepl.com/ru/translator" target="1">первая ссылка</a></li>
+            <li><a href="https://www.deepl.com/ru/translator" target="1">вторая ссылка</a></li>
+            <li><a href="https://www.deepl.com/ru/translator" target="1">третья ссылка</a></li>
+            <li><a href="https://www.deepl.com/ru/translator" target="1">четвертая ссылка</a></li>
+            <li><a href="https://www.deepl.com/ru/translator" target="1">пятая ссылка</a></li>
+        </ul>
+    </div>
+    <p>С помощью тега <b>p</b>. Разделители с помощью <b>border</b>. То же самое, что и со списком</p>
+    <div class="second">
+        <p><a href="https://www.deepl.com/ru/translator" target="1">первая ссылка</a></p>
+        <p><a href="https://www.deepl.com/ru/translator" target="1">вторая ссылка</a></p>
+        <p><a href="https://www.deepl.com/ru/translator" target="1">третья ссылка</a></p>
+        <p><a href="https://www.deepl.com/ru/translator" target="1">четвертая ссылка</a></p>
+        <p><a href="https://www.deepl.com/ru/translator" target="1">пятая ссылка</a></p>
+    </div>
+
+    <p>C помощью <b>div</b>. Разделители с помощью <b>border</b>. То же самое, что и с помощью тега p </p>
+    <div class="third">
+        <div><a href="https://www.deepl.com/ru/translator" target="1">первая ссылка</a></div>
+        <div><a href="https://www.deepl.com/ru/translator" target="1">вторая ссылка</a></div>
+        <div><a href="https://www.deepl.com/ru/translator" target="1">третья ссылка</a></div>
+        <div><a href="https://www.deepl.com/ru/translator" target="1">четвертая ссылка</a></div>
+        <div><a href="https://www.deepl.com/ru/translator" target="1">пятая ссылка</a></div>
+    </div>
+
+    <p>С помощью <b>div</b>. Разделители с помощью <b>div</b>. Для того, чтобы задать стили нужно использовать чет/нечет. Слишком замороченно</p>
+     <div class="fourth">
+        <div><a href="https://www.deepl.com/ru/translator" target="1">первая ссылка</a></div>
+        <div></div>
+        <div><a href="https://www.deepl.com/ru/translator" target="1">вторая ссылка</a></div>
+        <div></div>
+        <div><a href="https://www.deepl.com/ru/translator" target="1">третья ссылка</a></div>
+        <div></div>
+        <div><a href="https://www.deepl.com/ru/translator" target="1">четвертая ссылка</a></div>
+        <div></div>
+        <div><a href="https://www.deepl.com/ru/translator" target="1">пятая ссылка</a></div>
+        <div></div>
+
+    </div>
+
+    <p>С помощью <b>ссылок</b>. Разделители с помощью <b>border</b></p>
+    <div class="fifth">
+        <a href="https://www.deepl.com/ru/translator" target="1">первая ссылка</a>
+        <a href="https://www.deepl.com/ru/translator" target="1">вторая ссылка</a>
+        <a href="https://www.deepl.com/ru/translator" target="1">третья ссылка</a>
+        <a href="https://www.deepl.com/ru/translator" target="1">четвертая ссылка</a>
+        <a href="https://www.deepl.com/ru/translator" target="1">пятая ссылка</a>
+    </div> 
+    
+</body>
+</html>
