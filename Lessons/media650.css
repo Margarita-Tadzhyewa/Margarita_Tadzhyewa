@@ -1,0 +1,14 @@
+@media all and (max-width: 650px) {
+    .left{
+        width:50%
+    }
+
+    .right{
+        width: 50%;
+    }
+
+    .main{
+        margin: auto;
+    }
+}
+

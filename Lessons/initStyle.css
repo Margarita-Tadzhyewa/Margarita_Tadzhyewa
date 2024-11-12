@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: red; height: 50px;
+}
+
+.back{
+    background-color:brown;
+}
+
+.left{
+    background: green; 
+    height: 300px; 
+    width: 200px; 
+    float: left;
+}
+
+.right{
+    background: blue;
+    height: 300px;
+    width: 200px;
+    float: right;
+}
+
+.main{
+    background-color: aqua; 
+    margin: 0 200px;
+}
+
+.footer{
+    background: violet; 
+    height: 50px;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}

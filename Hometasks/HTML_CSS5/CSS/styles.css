@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fon{
+    background: url(../images/ball3.png) no-repeat top right,
+    url(../images/ball3.png) no-repeat bottom right,
+    url(../images/ball3.png) no-repeat top right 100px,
+    url(../images/ball3.png) no-repeat bottom right 100px, /* для баннера*/
+
+    url(../images/ball3.png) no-repeat top right 200px,
+    url(../images/ball3.png) no-repeat bottom right 200px, /* для правой стороны контента */
+
+    url(../images/ball3.png) no-repeat top left,
+    url(../images/ball3.png) no-repeat bottom left, /* для левой стороны меню */
+
+    url(../images/fon_ball.png) 20% top no-repeat,
+    url(../images/fon_ball.png) 20% bottom no-repeat, /* для левой стороны контента */
+
+                url(../images/right.jpg) right top repeat-y,
+                url(../images/fon.jpg) 20% top repeat-y;
+}
+.menu{
+    width: 20%;
+    float: left;
+}
+
+.banner{
+    width: 200px;
+    float: right;
+}
+
+.content{
+    
+    padding: 0 210px 0 21%;
+}
+
+.content::after{
+    content: '';
+    clear: both;
+    display: block;
+
+}
