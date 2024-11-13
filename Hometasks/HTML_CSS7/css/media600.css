@@ -1,0 +1,21 @@
+@media all and (max-width: 600px){
+
+    .menu{
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .main{
+        text-align: justify;
+        float: none;
+        margin-left: 0;
+        background: rgba(141, 143, 196, 0.5);
+    }
+
+    [alt="LeverX"]{
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+}

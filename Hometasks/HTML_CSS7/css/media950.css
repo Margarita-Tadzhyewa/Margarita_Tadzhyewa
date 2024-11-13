@@ -1,0 +1,16 @@
+@media all and (max-width: 950px) {
+
+    .main{
+        text-align: justify;
+        background: rgba(141, 143, 196, 0.5);
+        margin-left: 50%;
+    }
+
+    [alt="LeverX"]{
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+
+
+}

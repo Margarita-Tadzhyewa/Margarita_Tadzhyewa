@@ -3,31 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            background: rgb(200, 191, 200);
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <title><Picture></Picture></title>
 </head>
 <body>
-    <picture>
-        <source srcset="images/balcon.avif" type="image/avif">
-        <source srcset="images/balcon.webp" type="image/webp">
-        <img src="images/balcon.png" alt="test image">
-      </picture>
-
-
-    <p>Тег <b>picture</b> позволяет разработчикам указать несколько источников изображения для различных устройств и разрешений экрана, чтобы браузер мог выбрать подходящее изображение в зависимости от возможностей устройства пользователя.</p>
-    <p>Данная картинка меняется на другую при следующих разрешениях : 1500px, 1024px, 768px</p>
-    <picture>
-        <source srcset="images/bg_768.jpeg" media="(max-width: 768px)" alt="min">
-        <source srcset="images/bg_1024.jpeg" media="(max-width: 1024px)" alt="sr">
-        <source srcset="images/bg_1500.jpeg" media="(max-width: 1500px)" alt="max">
-        <img src="images/bg.jpeg" alt="Image description">
-      </picture>
+    <p class="title">Тэг <i>PICTURE</i></p>
+    <div class="header"> 
+        <p>Тег <b>picture</b> позволяет разработчикам указать несколько источников изображения для различных устройств и разрешений экрана, чтобы браузер мог выбрать подходящее изображение в зависимости от возможностей устройства пользователя.</p>
+        <br>
+        <p>Данная картинка меняется на другую при следующих разрешениях : 900px, 600px, 300px</p>
+    </div>
+    <div class="view">
+        <picture>
+            <source srcset="images/300.jpg" media="(max-width: 300px)" alt="min">
+            <source srcset="images/600.jpg" media="(max-width: 600px)" alt="sr">
+            <source srcset="images/900.jpg" media="(max-width: 900px)" alt="max">
+            <img src="images/1050.jpg" alt="Image description">
+          </picture>
+    </div>
     
-
-
 </body>
 </html>

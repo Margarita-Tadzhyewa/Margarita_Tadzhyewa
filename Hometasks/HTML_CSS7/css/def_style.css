@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    padding: 15px 0;
+    background: rgb(141, 143, 196);
+    font-family: 'Poppins', sans-serif;
+    /* text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.6); */
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.bottom{
+    background:  rgb(141, 143, 196);
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 30px;
+    color: rgba(255, 255, 255);
+}
+.menu{
+    width: 200px;
+    float: left;
+    padding: 30px;
+    color:  rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.6);
+}
+.main{
+    margin-left: 220px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background: url('../../HTML_CSS5/images/right.png') repeat-y right top rgba(141, 143, 196, 0.5);
+    padding: 10px 65px 20px 20px;
+    padding-right: 65px;
+    
+}
+
+li{
+    list-style: none; /* Убираем исходные маркеры */
+    padding-left: 1px; /* Смещаем текст вправо */ 
+}
+
+.head{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+[alt="LeverX"]{
+    float: left; 
+    margin-right: 20px;
+}
