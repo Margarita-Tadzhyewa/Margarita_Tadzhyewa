@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        form{
+            width: 300px;
+        }
+        label.article{
+            float: left;
+            margin-right: 10px;
+        }
+
+        .aut input{
+            margin-bottom: 10px;
+        }
+
+        fieldset{
+
+            margin-bottom: 30px;
+        }
+
+        /* button{
+            margin-top: 5px;
+            padding: 5px 3px;
+        } */
+    </style>
+    <title>Form</title>
+</head>
+<body>
+
+
+    <form action="https://fe.it-academy.by/TestForm.php" target="_blank" method="get" class="form">
+        <fieldset>
+            <legend>Строка поиска
+            </legend>
+
+            <label class="article"> <input type="text" name="name_st"  required> </label>
+            <button class="btn btn-form" type="submit">Искать</button>
+
+            <br>
+        <label class="publish">
+        <input type="radio" name="place" value="site"> на сайте
+        <input type="radio" name="place" value="google"> в гугле </label>
+        </fieldset>
+    </form>
+
+
+
+        <!-- <fieldset>
+            <legend>Строка поиска
+            </legend>
+
+            <label class="article"> <input type="text" name="name_st" > </label>
+            <button class="btn btn-form" type="submit">Искать</button>
+
+            <br>
+        <label class="publish">
+        <input type="radio" name="place" value="site"> на сайте
+        <input type="radio" name="place" value="google"> в гугле </label>
+        </fieldset> -->
+
+
+
+        <form action="https://fe.it-academy.by/TestForm.php" target="_blank" method="get" class="form">
+
+            <fieldset>
+                <legend>Авторизуйтесь</legend>
+
+                <label class="aut"> <input type="text" name="login" required> Логин</label> <br>
+                <label class="aut"> <input type="password" name="password" required> Пароль</label> <br>
+                <label class="aut"> <input type="checkbox"> Оставаться в системе</label> <br>
+
+                <button class="btn btn-form" type="submit">Войти</button>
+            </fieldset>
+
+        </form>
+
+        <form action="https://fe.it-academy.by/TestForm.php" target="_blank" method="get" class="form">
+            <fieldset>
+            <legend>Как вам?</legend>
+            
+            <label>
+
+                <input type="radio" name="mark" value="bad"> ничего <br>
+                <input type="radio" name="mark" value="not bad"> неплохо <br>
+                <input type="radio" name="mark" value="good"> хорошо <br>
+                <input type="radio" name="mark" value="super"> супер <br>
+            </label>
+            <button class="btn btn-form" type="submit">Отправить</button>
+        </fieldset>
+
+
+        </form>
+
+
+     3<form action="https://fe.it-academy.by/TestForm.php" target="_blank" method="post">
+
+        <fieldset>
+            <legend>Оставьте Ваш отзыв</legend>
+            <label> <input type="text" name="f_name" required> Имя</label> <br>
+            <label> <input type="text" name="email" required> E-mail</label> <br>
+
+            <textarea name="from" placeholder="Форма отправки"></textarea> <br>
+            <button class="btn btn-form" type="submit">Отправить</button>
+        </fieldset>
+    </form>
+
+
+    <form action="https://fe.it-academy.by/TestForm.php" target="_blank" method="get">
+
+        <fieldset>
+            <legend>Города РБ</legend>
+
+            <select name="town">
+            <option value="Brest">Брест</option>
+            <option value="Minsk">Минск</option>
+            <option value="Gomel">Гомель</option>
+            <option value="Vitebsk">Витебск</option></select>
+
+            <select name="country" size="7">
+                <option value="Brest">Брест</option>
+                <option value="Minsk">Минск</option>
+                <option value="Gomel">Гомель</option>
+                <option value="Vitebsk">Витебск</option>     
+
+            </select>
+            
+            <button class="btn btn-form" type="submit">ОК</button>
+        </fieldset>
+    </form>
+
+        <form action="https://fe.it-academy.by/TestForm.php" target="_blank" method="post">
+
+            <fieldset>
+                <legend>Upload</legend>
+                Файл: <br>
+                <input type="file" name="filef"> <br>
+                Срок хранения (года): <br>
+                <input type="text" name="upload">
+    
+                
+                <button class="btn btn-form" type="submit">Загрузить</button>
+            </fieldset>
+    </form>
+
+
+    <form action="https://fe.it-academy.by/TestForm.php" target="_blank" method="get">
+
+        <fieldset>
+            <legend>Строка поиска</legend>
+            <input type="text" name="stroke" value="Только русские буквы">
+            <input type="text" name="phone" value="+375-29-193-25-03"> <br>
+           
+            
+            <button class="btn btn-form" type="submit">Проверить</button>
+        </fieldset>
+    </form>
+
+
+    
+</body>
+</html>

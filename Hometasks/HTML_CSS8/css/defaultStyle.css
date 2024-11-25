@@ -1,0 +1,107 @@
+body{
+    background: rgb(228, 97, 97);
+}
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 300;
+}
+
+.form{
+    border-radius: 20px;
+    padding: 10px;
+    width: 800px;
+    background: linear-gradient(rgb(161, 161, 161), rgb(211, 211, 211));
+    margin:0 auto;
+    margin-top: 100px;
+}
+
+form>p:first-child{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input, select, textarea{
+
+
+    border-radius: 5px;
+    height: 25px;
+    border: 1px solid #bbbbbb;
+
+}
+
+.btn-form {
+    border-radius: 5px;
+    background: rgb(220, 96, 96);
+    padding: 20px 80px;
+    height: 55px;
+    width: 340px;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+
+.article p{
+    margin-bottom: 10px;
+    float: left;
+}
+
+.article input{
+    width: 67%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+label.article::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.rubr p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.rubr select{
+    width: 67%;
+    float: right;
+
+}
+
+label.rubr::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+button{
+    margin: 20px 0;
+}
+
+.publish p{
+    float: left;
+}
+
+.comment p{
+    float: left;
+}
+
+.comment input{
+    margin-left: 25px;
+}
+
+.publish input:first-of-type{
+    margin-left: 151px;
+}
+
+.text textarea{
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+}
