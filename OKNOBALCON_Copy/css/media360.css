@@ -1,0 +1,248 @@
+@media all and (max-width: 360px) {
+    .container{
+        width: 320px;
+    }
+
+
+    .info {
+        padding: 22px 0 50px 0;
+    }
+    .info>div.container>div>div:first-of-type{
+        flex: 0 1 320px;
+    }
+    .info>div.container>div>div:nth-of-type(2) {
+        margin-top: 30px;
+        flex: 0 1 320px;
+    }
+
+    .info>div.container>p:first-of-type {
+        font-size: 30px;
+    }
+
+    .info>div.container>div>div>p:nth-of-type(2) {
+        font-size: 14px;
+    }
+
+    .info>div.container>div>div>p:nth-of-type(3) {
+        font-size: 14px;
+    }
+
+    .features>div>p {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .record{
+        padding: 15px 26px;
+    }
+
+    .record>p{
+        font-size: 16px;
+    }
+
+    .info>div.container>div>div:nth-of-type(2)>div {
+        right: 34px;
+        bottom: 47px;
+    }
+
+
+
+
+    .types>div {
+        height: 155px;
+        flex: 1 1 auto;
+    }
+
+    .finishes>div.container>p:first-of-type {
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .types>div>img {
+        position: relative;
+        height: 120px;
+        flex: 0 1 109px;
+    }
+
+    .types > div > div > p:first-of-type {
+        font-size: 18px;
+    }
+
+    .types>div>div>p:nth-of-type(2) {
+        font-size: 16px;
+    }
+
+    .action>p:first-of-type {
+        font-size: 26px;
+    }
+
+    .action{
+        /* background: url('../images/gift_box_3.png') no-repeat bottom 78px right -40px, url('../images/gift-box2.png') no-repeat top -5px right -14px #FFDE73;
+        background-size: 114px 114px, 70px 70px, cover; */
+        background:  url('../images/action_box5.png') no-repeat center center  #FFDE73;
+        background-size: cover;
+    }
+    .action>p:nth-of-type(2) {
+        width: 250px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .action>button{
+        padding: 12px 31px;
+        height: 48px;
+    }
+    .action>button>p {
+        font-size: 16px;
+    }
+
+    .stages>div.container>p:first-of-type {
+        font-size: 20px;
+    }
+
+    .stag_work>div {
+        padding: 20px 17px 6px 16px;
+        flex: 0 1 150px
+    }
+
+    .stag_work>div>p:first-of-type {
+        width: 105px;
+        font-size: 20px;
+    }
+
+    .stag_work>div>p:nth-of-type(2) {
+        font-size: 12px;
+    }
+
+    .stag_work>div>img {
+        margin-bottom: 20px;
+    }
+
+
+
+    .examples>div.container {
+        padding: 30px 0;
+    }
+
+    .examples>div.container>p {
+        font-size: 20px;
+    }
+
+    .ex_images>div{
+        flex: 0 0 300px;
+        height: 380px;
+    }
+
+    .ex_images>div>p:first-of-type{
+        margin-right: 57px;
+    }
+
+
+    .questions>p:first-of-type {
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .questions>p:nth-of-type(2) {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .questions>form>div>input {
+        font-size: 16px;
+    }
+
+    .questions{
+    padding: 30px 20px 20px 20px;
+    }
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    .services>div {
+        flex: 0 1 148px;
+    }
+
+    .services>div:first-of-type>p:first-of-type {
+        font-size: 14px;
+    }
+
+    .services>div:first-of-type>p:nth-of-type(2) {
+        font-size: 14px;
+    }
+
+    .services>div:first-of-type>div>p {
+        font-size: 14px;
+    }
+
+    .services>div:nth-of-type(2)>p:first-of-type {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .services>div:nth-of-type(2)>ul>li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .services>div:nth-of-type(3) {
+        margin-top: 60px;
+    }
+
+    .services>div:nth-of-type(3)>ul>li {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .services>div:nth-of-type(4) {
+        margin-top: 60px;
+    }
+
+    .services>div:nth-of-type(4)>p:first-of-type {
+        font-size: 20px;
+    }
+
+    .services>div:nth-of-type(4)>p:last-of-type {
+        font-size: 14px;
+    }
+
+    .services>div:nth-of-type(4)>button {
+        display: none;
+    }
+
+    .footer>div.container>div:nth-of-type(2){
+        display: block;
+    }
+
+    .footer>div.container>div:nth-of-type(2)>button>p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+        color: #171717;
+    }
+
+
+    .footer>div.container>div:last-of-type>p:first-of-type {
+        margin: 55px 0 13px 0;
+        font-size: 14px;
+    }
+
+    .footer>div.container>div:last-of-type {
+        flex-direction: column;
+    }
+
+    .footer>div.container>div:last-of-type>p:last-of-type {
+        font-size: 14px;
+        margin-right: 0;
+    }
+}

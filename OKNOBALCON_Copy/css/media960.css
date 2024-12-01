@@ -1,0 +1,168 @@
+@media all and (max-width: 960px) {
+    .container{
+        width: 920px;
+        /* background: plum; */
+    }
+
+    .header>div.container{
+        padding: 17px 0;
+    }
+    .list>ul{
+        margin: 0;
+    }
+
+    .list>ul>li{
+        margin: 0;
+        margin-right: 28px;
+        font-size: 16px;
+    }
+
+    .list>ul>li:last-of-type{
+        margin-right: 0;
+    }
+
+    [alt='logo']{
+        width: 140px;
+        height: 37px;
+        margin: 0;
+    }
+
+    .header>div.container>a{
+        font-size: 20px;
+        margin-top: 0;
+        padding: 8px 10px;
+        
+    }
+
+    .info>div.container>div:nth-of-type(2){
+        flex-basis: 450px;
+    }
+
+    .info>div.container>div:first-of-type{
+        flex-basis: 450px;
+    }
+
+    .types>div{
+        flex: 0 1 450px;
+    }
+
+    .action{
+        /* background:  url('../images/gift-box2.png') no-repeat top right -80px, url('../images/Rectangle.png') no-repeat right -100px top 0  #FFDE73;
+        background-size: 176px 176px, 693px 400px, cover; */
+        background: url('../images/action_box2.png') no-repeat center center #FFDE73;
+        background-size: cover;
+    }
+
+    [alt="gift-box_1"]{
+        bottom: 0;
+        right: -93px;
+        width: 585px;
+        height: 315px;
+    }
+
+    [alt="gift-box2"]{
+        display: none;
+    
+    }
+
+    .stag_work>div {
+        flex: 0 1 215px;
+    }
+
+    .stag_work>div>p:nth-of-type(2) {
+        font-size: 18px;
+
+    }
+
+    .ex_images{
+        overflow-y: scroll;
+    }
+
+    .ex_images>div{
+        margin-right: 20px;
+    }
+
+    .ex_images>div:last-of-type{
+        margin-right: 0px;
+    }
+
+    .ex_images::-webkit-scrollbar {
+        width: 10px;
+        background-color: #ffffff;
+      }
+      
+      .ex_images::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #FCCF3C;;
+      }
+      
+      .ex_images::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        background-color: #ffffff;
+      }
+
+
+
+    .questions{
+        background: url('../images/form_card\ \(1\).png') no-repeat center center #FCCF3C;
+        background-size: cover;
+        padding: 40px 17px;
+    }
+
+    .questions>form>div>input {
+        /* margin-right: 10px; */
+        padding: 15px 18px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .services>div {
+        flex: 0 1 215px
+    }
+
+    .services>div:nth-of-type(2)>p:first-of-type {
+        font-size: 18px;
+    }
+
+    .services>div:nth-of-type(3)>ul>li {
+        font-size: 18px;
+    }
+
+    .services>div:nth-of-type(4)>p:first-of-type {
+        font-size: 28px;
+    }
+
+    .services>div:nth-of-type(4)>p:last-of-type {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+
+    .services>div:nth-of-type(4)>button {
+        padding: 14px 17px;
+    }
+
+    .services>div:nth-of-type(4)>button>p {
+        font-size: 18px;
+    }
+
+    [alt="img_logo"]{
+        width: 150px;
+        height: 40px;
+    }
+
+
+
+}

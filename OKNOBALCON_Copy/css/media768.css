@@ -1,0 +1,246 @@
+@media all and (max-width: 768px) {
+    .container{
+        width: 736px;
+    }
+
+    .list>ul{
+        display: none;
+    }
+
+    .header>div.container>img:last-of-type{
+        display: block;
+    }
+
+    .header>div.container>a{
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .info>div.container>div>div:nth-of-type(2){
+        flex: 0 1 229px;
+    }
+
+    .info>div.container>div>div:first-of-type{
+        flex: 0 1 479px;
+    }
+
+    .info>div.container>div>div>p:nth-of-type(2){
+        font-size: 18px;
+    }
+
+    .info>div.container>div>div>p:nth-of-type(3){
+        font-size: 18px;
+    }
+
+    .features>div>p{
+        font-size: 18px;
+    }
+
+    .info>div.container>div>div:first-of-type>p:first-of-type{
+        display: none;
+    }
+
+    .record{
+        display: none;
+    }
+
+    .features>div {
+        margin-bottom: 10px;
+    }
+
+    .info>div.container>div>div:nth-of-type(2)>div{
+        right: 17px;
+        bottom: 37px;
+    }
+
+    .info>div.container>p:first-of-type{
+        display: block;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 110%;
+        color: #171717;
+        margin-bottom: 20px;
+    }
+
+    .record_2{
+        display: block;
+        border-radius: 10px;
+        padding: 10px 30px;
+        height: 56px;
+        width: 100%;
+        background: #171717;
+        margin-top: 50px;
+    }
+    
+    .record_2>p{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .info>div.container>div>div:first-of-type>div:last-of-type{
+        display: none;
+    }
+
+
+    .finishes>div.container>p:first-of-type{
+        display: block;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 110%;
+        color: #171717;
+        margin: 20px 0 27px 0;
+    }
+
+    .finishes>div.container>p:last-of-type{
+        margin-top: 10px;
+    }
+
+
+    .types>div {
+        position: relative;
+        flex: 0 0 229px;
+    }
+
+    [alt="5"] {
+        width: auto;
+    }
+
+    .types>div>img{
+        border-radius: 8px;
+        z-index: 1;
+        right: 0;
+        position: absolute;
+        flex: 0 1 82px;
+        height: 90px;
+    }
+    .types>div:first-of-type{
+        display: none;
+    }
+
+    .types>div:last-of-type{
+        margin-right: auto;
+        margin-left: 20px;
+    }
+
+    .types>div>div>p:first-of-type {
+        font-size: 20px;
+        padding: 10px 36px 10px 10px;
+    }
+
+    .finishes>div.container>p {
+        font-size: 20px;
+    }
+
+    .finishes>div.container>p>span {
+        padding: 7px 7px 7px 7px;
+    }
+
+    .action{
+        /* background: url('../images/gift-box_1.png') no-repeat right -200px bottom -10px, url('../images/Rectangle.png') no-repeat right -330px top 0  #FFDE73;
+        background-size: 555px 320px, 693px 400px, cover; */
+        background: url('../images/action_box3.png')no-repeat center center  #FFDE73;
+        background-size: cover;
+    }
+
+    [alt="gift-box_1"]{
+        display: none;
+    }
+    .action>p:first-of-type {
+        font-size: 48px;
+    }
+
+    .action>p:nth-of-type(2) {
+        font-size: 24px;
+        margin-bottom: 45px;
+    }
+
+    .stag_work {
+        flex-wrap: nowrap;
+    }
+
+    .stag_work>div{
+        flex: 0 0 215px;
+        margin-right: 20px;
+    }
+
+    .examples>div.container>p{
+        font-size: 24px;
+    }
+
+
+
+    .questions{
+        background: url('../images/form_card\ \(2\).png') no-repeat center center #FCCF3C;
+        background-size: cover;
+    }
+
+    .questions>form>div{
+        flex-direction: column;
+    }
+
+    .questions>form>div>input {
+        margin-right: 0;
+        flex: 0 1 auto;
+        margin-bottom: 10px;
+    }
+
+    .questions>p:first-of-type {
+        font-size: 40px;
+    }
+
+    .questions>p:nth-of-type(2) {
+        font-size: 20px;
+    }
+
+    .questions>p:nth-of-type(3) {
+        margin-top: 0;
+    }
+
+
+
+
+
+
+
+
+
+    
+
+    .services{
+        margin-bottom: 83px;
+        flex-wrap: wrap;
+    }
+
+    .services>div {
+        flex: 0 1 230px;
+    }
+
+    .services>div:nth-of-type(4) {
+        margin-top: 70px;
+    }
+
+    .services>div:nth-of-type(4)>button {
+        display: none;
+    }
+
+    .footer>div.container>div:nth-of-type(3)>p:first-of-type {
+        margin-right: 30px;
+    }
+
+    .services>div:nth-of-type(5){
+        display: block;
+
+    }
+
+    .services>div:nth-of-type(5)>button{
+        margin-top: 70px;
+    }
+
+    .services>div:nth-of-type(6){
+        display: block;
+
+    }
+}
