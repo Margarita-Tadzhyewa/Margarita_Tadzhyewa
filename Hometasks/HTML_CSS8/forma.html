@@ -27,14 +27,16 @@
 
         <label class="publish">
             <p>Публикация:</p> 
-            <input type="radio" name="place" value="site"> <p>на сайте</p>
-            <input type="radio" name="place" value="magazine"> <p>в журнале</p>
-            <input type="radio" name="place" value="site_magazine"> <p>на сайте и в журнале</p>
+            <div>
+                <input type="radio" name="place" value="site"> <p>на сайте</p>
+                <input type="radio" name="place" value="magazine"> <p>в журнале</p>
+                <input type="radio" name="place" value="site_magazine"> <p>на сайте и в журнале</p>
+            </div>
         </label>
 
         <label class="comment">
             <p>Разрешить комментарии:</p>
-            <input type="checkbox" name="allow_comment" value="allow" checked > <span></span>
+            <div><input type="checkbox" name="allow_comment" value="allow" checked > <span></span></div>
         </label>
 
         <label class="text">
@@ -42,7 +44,7 @@
             <textarea name="text_article" placeholder="Введите текст статьи"></textarea>
        </label>
 
-       <button class="btn btn-form" type="submit">ОТПРАВИТЬ</button>
+       <button class="btn btn-form" type="submit">ОПУБЛИКОВАТЬ</button>
 
 
 

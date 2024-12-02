@@ -10,7 +10,7 @@ body{
 }
 
 form{
-    width: 900px;
+    /* width: 900px; */
     border-radius: 25px;
     background: rgb(235, 235, 235);
     /* height: 430px; */
@@ -77,27 +77,46 @@ label.publish::after{
     clear: both;
 }
 
-label.publish>p{
+/* label.publish>p{
     margin-bottom: 10px;
     margin-top: 7px;
     float: left;
-}
+} */
 
 label.publish>p:first-of-type{
     margin-top: 7px;
     float: left;
+    margin-bottom: 10px;
 }
 
 input[name="place"]{
     margin-bottom: 10px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-right: 10px;
     margin-top: 10px;
     float: left;
 }
 
-input[name="place"]:first-of-type{
-    margin-left: 160px;
+/* input[name="place"]:first-of-type{
+    margin-left: 160px; 
+} */
+
+
+.publish>div{
+    width: 70%;
+    float: right;
+}
+.publish>div>p{
+    margin-top: 7px;
+    float: left;
+}
+
+.publish>div>input:nth-of-type(2){
+    margin-left: 30px;
+}
+
+.publish>div>input:nth-of-type(3){
+    margin-left: 30px;
 }
 
 label.comment>p{
@@ -112,9 +131,13 @@ label.comment::after{
     clear: both;
 }
 
+.comment>div{
+    width: 70%;
+    float: right;
+}
+
 input[name="allow_comment"]{
     margin-bottom: 10px;
-    margin-left: 35px;
     margin-top: 10px;
 }
 
