@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            position: relative;
+            width: 1000px;
+            height: 500px;
+            border: 2px solid #333;
+        }
+
+        .element.animated {
+            position: absolute;
+            top: 250px;
+            left: 70px;
+            transform: translateY(-50%);
+            width: 120px;
+            height: 120px;
+            background-color: blue;
+            animation: rotate 2s linear infinite;
+        }
+
+        @keyframes rotate {
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+        }
+
+        .element.static {
+            position: absolute;
+            width: 180px;
+            height: 180px;
+            transition: all 0.5s ease;
+        }
+
+        .element.static:nth-child(2) {
+            top: 35px;
+            right: 240px;
+            background-color: green;
+        }
+
+        .element.static:nth-child(3) {
+            bottom: 35px;
+            right: 420px;
+            background-color: yellow;
+        }
+
+        .element.static:nth-child(4) {
+            bottom: 35px;
+            right: 660px;
+            background-color: red;
+        }
+
+        .container:hover .static:nth-child(2) {
+            transform: scale(1.5);
+            background-color: purple;
+        }
+
+        .container:hover .static:nth-child(3) {
+            transform: translateX(150px);
+            background-color: orange;
+        }
+
+        .container:hover .static:nth-child(4) {
+            transform: rotate(90deg);
+            background-color: pink;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="element animated"></div>
+        <div class="element static"></div>
+        <div class="element static"></div>
+        <div class="element static"></div>
+    </div>
+</body>
+</html>

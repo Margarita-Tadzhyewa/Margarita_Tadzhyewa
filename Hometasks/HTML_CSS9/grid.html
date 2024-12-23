@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Bad+Script&family=Cabin+Condensed:wght@400;500;600;700&family=Kablammo&family=Noto+Sans+Kannada:wght@100..900&family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Bad+Script&family=Cabin+Condensed:wght@400;500;600;700&family=Kablammo&family=Noto+Sans+Kannada:wght@100..900&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .cont{
+            display: grid;
+            grid-template-columns: 340px 4fr;
+            grid-template-rows: 60px 1fr 100px;
+        }
+
+        .header{
+            grid-row: 1/2;
+            grid-column: 1/3;
+            padding: 10px 0; 
+            background: rgb(141, 143, 196);
+        }
+
+        .header p{
+            font-family: 'Poppins', sans-serif;
+            text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.6);
+            text-align: center;
+            font-size: 30px;
+            color: rgba(255, 255, 255);
+        }
+
+        .menu{
+            grid-row: 2/3;
+            grid-column: 1/2;
+            color:  rgb(255, 255, 255);
+            font-size: 25px;
+            font-family: 'Poppins', sans-serif;
+            text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.6);
+            background: #363a43;
+            padding: 30px;}
+
+
+        .info{
+            grid-row: 2/3;
+            grid-column: 2/3;
+            /* margin-left: 220px; */
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            background: url('images/right.png') repeat-y right top  rgb(98 101 131);
+            padding: 10px 65px 20px 20px;
+            padding-right: 65px;
+            
+        }
+
+        .head{
+            text-align: center;
+            font-size: 35px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+        }
+
+        .footer{
+            padding-top: 12px;
+            grid-row: 3/4;
+            grid-column: 1/3;
+            /* padding: 15px 0; */
+            background: rgb(141, 143, 196);
+        }
+
+        .footer p{
+            font-size: 58px;
+            font-family: 'Poppins', sans-serif;
+            text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.6);
+            text-align: center;
+            color: rgba(255, 255, 255);
+        }
+
+        li{
+            list-style: none; 
+            padding-left: 1px; 
+        }
+
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        [alt="LeverX"] {
+            float: left; margin-right: 20px;
+        }
+
+        @media all and (max-width: 765px){
+            .cont{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 60px 3fr 1fr 100px;
+        }
+
+        .menu{
+            grid-row: 3/4;
+            grid-column: 1/2;
+        }
+
+        .info{
+            grid-row: 2/3;
+            grid-column: 1/2;
+            padding-right: 20px;
+        }
+
+        [alt="LeverX"] {
+            float: none; 
+            width: 100%;
+        }
+
+        .footer{
+            grid-row: 4/5;
+            grid-column: 1/2;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="header">
+            <p class="bottom">LEVERX</p></div>
+        <div class="menu">
+            <p>LANGUAGES:</p>
+            <br>
+            
+            <ul>
+                <li><a href="https://leverx.com/" target="1">SAP</a></li>
+                <li><a href="https://leverx.com/" target="2">C++</a></li>
+                <li><a href="https://leverx.com/" target="3">Java</a></li>
+                <li><a href="https://leverx.com/" target="4">JavaScript</a></li>
+                <li><a href="https://leverx.com/" target="5">C#</a></li>
+                <li><a href="https://leverx.com/" target="6">Python</a></li>
+                <li><a href="https://leverx.com/" target="7">Pascal</a></li>
+                <li><a href="https://leverx.com/" target="8">NodeJS</a></li>
+                <li><a href="https://leverx.com/" target="9">HTML/CSS</a></li>
+                <li><a href="https://leverx.com/" target="10">VS</a></li>
+            </ul>
+        </div>
+        <div class="info">
+            <p class="head">LEVERX</p>
+            <div>
+                <img src="../HTML_CSS5/images/LeverX.png" alt="LeverX">
+            </div>
+            <p>LeverX is a global system integrator and a top-tier SAP consultancy dedicated to delivering professional, customer-centric solutions and services. Founded in 2003 on the principles of technological excellence and personalized service,
+             LeverX has established itself as a trusted partner in the digital transformation journey of Fortune 500 clients worldwide.</p>
+            <br>
+             <p>We’ve accumulated a wealth of knowledge in SAP and custom software development to support you every step of the way, regardless of the complexity of your project.</p>
+            <br>
+             <p>We offer a complete suite of SAP-related services, ensuring a seamless journey from initial consultation and business analysis to knowledge transfer and post-launch support.</p>
+             <br>
+             <p>Our custom development teams adeptly tackle diverse engineering needs, whether building solutions from scratch or enhancing ongoing projects.</p>
+             <br>
+             <p>LeverX is a global system integrator and a top-tier SAP consultancy dedicated to delivering professional, customer-centric solutions and services. Founded in 2003 on the principles of technological excellence and personalized service,
+                LeverX has established itself as a trusted partner in the digital transformation journey of Fortune 500 clients worldwide.</p>
+            <br>
+        </div>
+        <div class="footer">
+            <p>LEVERX</p>
+        </div>
+    </div>
+</body>
+</html>
