@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let surname = prompt("Введите вашу фамилию:");
+        let name = prompt("Введите ваше имя:");
+        let patronymic = prompt("Введите ваше отчество:");
+        
+        let ageYears = parseInt(prompt("Укажите ваш возраст в годах:"));
+        
+        let isMale = confirm("Ваш пол - мужской?");
+        let gender = isMale ? "мужской" : "женский";
+        
+        const daysInYear = 365;
+        let ageDays = ageYears * daysInYear;
+        let futureAge = ageYears + 5;
+        
+        let onPension = ageYears >= 60 && !isMale || ageYears >= 65 && isMale;
+        
+        let message = `
+            Ваше ФИО: ${surname} ${name} ${patronymic}
+            Ваш возраст в годах: ${ageYears}
+            Ваш возраст в днях: ${ageDays}
+            Через 5 лет вам будет: ${futureAge}
+            Ваш пол: ${gender}
+            Вы на пенсии: ${onPension ? 'да' : 'нет'}
+        `;
+        
+        alert(message);
+    </script>
+</body>
+</html>
