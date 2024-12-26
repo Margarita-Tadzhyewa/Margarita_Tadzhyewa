@@ -1,0 +1,330 @@
+/* Страница пошив */
+/* Скрытыте элементы */
+.loupe, .burger {
+    display: none;
+}
+
+/* Фон для главной страницы */
+ .main__page{
+    margin-bottom: 41px;
+    height: 860px;
+    background: url('../../images/klipartz.png') no-repeat right 150px bottom, linear-gradient(32deg, rgba(151,150,240,1) 0%, rgba(251,199,212,1) 100%);;
+    background-size: 630px 663px, cover;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 41px 0 45px 0;
+}
+
+.header__top form{
+    width: 30%;
+    display: flex;
+    position: relative;
+}
+.header__top form input{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 105%;
+    color: #8e8e8e;
+    border: 4px solid #272525;
+    border-radius: 90px;
+    padding: 18px 28px;
+    background: none;
+    width: 100%;
+}
+
+.header__top form button{
+    width: 40px;
+    top: 13px;
+    right: 21px;
+    background: transparent;
+    height: 40px;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.header__top form button>i::before{
+    content: url('../../images/search.svg');
+}
+
+/* Кнопка с телефоном */
+.phone{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 105%;
+    color: #eef1f6;
+    box-shadow: 0 6px 25px 0 rgba(121, 129, 173, 0.45);
+    background: #1fab8a;
+    border-radius: 90px;
+    padding: 21px 0;
+    width: 16.6%;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.phone:hover{
+    background: #288771;
+    color: #fff;
+}
+
+.language{
+    display: flex;
+}
+
+.language a:first-of-type{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 105%;
+    color: #272525;
+}
+
+.language a:last-of-type{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 105%;
+    color: #8e8e8e;
+}
+
+.language p{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 105%;
+    color: #8e8e8e;
+}
+
+.container{
+    max-width: 1636px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* Навигация */
+.header_bottom{
+    background: url('../../images/shopper.png') no-repeat right rgba(250, 251, 253, 0.44);
+    background-size: 294px 100px;
+} 
+
+.header_bottom div.container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header_bottom div.container nav{
+    max-width: 48.5%;
+}
+
+.header_bottom nav ul{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    height: 100px;
+}
+
+.header_bottom nav ul li{
+    height: 100px;
+    padding-top: 41px;
+    padding: 41px 30px; 
+    white-space: nowrap;
+    align-self: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 105%;
+    color: #272525;
+    transition: .5s;
+}
+
+.header_bottom nav ul li:hover, .header_bottom nav ul li:focus{
+    border-radius: 6px;
+    box-shadow: 0 8px 8px -4px rgba(26, 32, 44, 0.04), 0 16px 20px -4px rgba(26, 32, 44, 0.1);
+    background: #272525;
+    font-weight: 800;
+    color: #fafbfd;
+}
+
+.header_bottom div.container>p{
+    font-weight: 900;
+    font-size: 38px;
+    text-transform: lowercase;
+    color: #3c336c;
+    margin-left: auto;
+    margin-right: 132px;
+    text-transform: uppercase;
+}
+
+.popup-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: none;
+    z-index: 90;
+
+}
+
+/* .popup-menu {
+    position: fixed;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    z-index: 99; 
+    display: none;
+    transition: .5s ease-in-out;
+} */
+
+.popup-menu ul {
+    height: 100vh;
+    padding: 40px 90px;
+    border-radius: 6px;
+    display: inline-block;
+    background: #FAFAFA;
+    position: relative;
+    z-index: 650;
+    right: 0;
+    -webkit-animation: popup-menu 1s;
+    animation: popup-menu 1s;
+}
+
+@-webkit-keyframes popup-menu {
+    from {
+        right: -600px
+    }
+
+    to {
+        right: 0
+    }
+}
+
+@keyframes popup-menu {
+    from {
+        right: -600px
+    }
+
+    to {
+        right: 0
+    }
+}
+
+.popup-menu ul li {
+    position: relative;
+    z-index: 78;
+}
+
+.popup-menu ul li span {
+    font-size: 13px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    color: white;
+}
+
+.popup-menu ul a:not(:last-child) {
+    display: block;
+    text-align: center;
+    padding: 10px 14px;
+    transition: .5s;
+}
+
+.popup-menu ul a:not(:last-child):hover{
+    background: #272525;
+    border-radius: 6px;
+    color: #fafbfd;
+}
+
+.popup-menu ul a:focus,
+.popup-menu ul a:focus + span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 105%;
+    color: #fafbfd;
+}
+
+.popup-menu ul a:focus {
+    color: #fafbfd;
+    background: #272525;
+}
+
+.popup-menu ul a:last-child {
+    display: block;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    right: 8px;
+    text-align: center;
+}
+
+.popup-menu ul a:last-child span {
+    display: inline-block;
+    color: #3E3E3E;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.popup-menu ul a:last-child:hover span {
+    color: white;
+}
+
+.popup_lang{
+    display: flex;
+    justify-content: center;
+    column-gap: 18px;
+    margin-bottom: 28px;
+}
+
+.tel_popup{
+    vertical-align: middle;
+    border-radius: 54px;
+    padding: 10px 37px;
+    width: 184px;
+    height: 36px;
+    box-shadow: 0 4px 15px 0 rgba(121, 129, 173, 0.45);
+    background: #1fab8a;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 105%;
+    color: #eef1f6;
+    transition: .4s;
+    margin-top: 25px;
+}
+
+.tel_popup:hover{
+    background: #167d65;
+}
+
+.popup_email{
+    margin-top: 43px;
+    text-decoration: underline;
+}
+
+.popup_sm{
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    column-gap: 18px;
+}
+
+.overlay {
+    z-index: 7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    transition: .5s ease-in-out;
+}
+
+

@@ -1,0 +1,52 @@
+@media all and (max-width: 1530px){
+    .container{
+        max-width: 1200px;
+    }
+
+    .main__page{
+        margin-bottom: 41px;
+        height: 860px;
+        background: url('../../images/ready_box.png') no-repeat right -165px bottom -95px, linear-gradient(32deg, rgba(151, 150, 240, 1) 0%, rgba(251, 199, 212, 1) 100%);
+        background-size: 1023px 706px, cover;
+    }
+
+    .main__info div.container>div p {
+        color: #fff;
+    }
+
+    .main__info div.container>p:nth-of-type(3), .main__info div.container>p:nth-of-type(4) {
+        max-width: 507px;
+    }
+
+    .product_card{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        column-gap: 2.8%;
+        margin-bottom: 43px;
+    }
+
+    .product_card>div.product_card_item:last-of-type{
+        display: none;
+    }
+
+    .creative{
+        padding-top: 0;
+        height: 750px;
+    }
+
+    .creative_box>p:first-of-type {
+        max-width: 602px;
+    }
+
+    .creative_box>p:nth-of-type(2) {
+        margin-bottom: 60px;
+    }
+
+    [alt="box"]{
+        position: absolute;
+        top: 19px;
+        right: -161px;
+        width: 573px;
+        height: 510px;
+    }
+}

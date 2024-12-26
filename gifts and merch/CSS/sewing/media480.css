@@ -1,0 +1,99 @@
+@media all and (max-width: 474px){
+    .container{
+        max-width: 320px;
+    }
+
+    .main__page {
+        height: 671px;
+    }
+
+    .main__page::before {
+        height: 69px;
+    }
+
+    [alt="logo"] {
+        width: 161px;
+        height: 17px;
+        padding-top: 3px;
+    }
+
+    .burger {
+        width: 23px;
+        height: 23px;
+    }
+
+    .loupe {
+        margin-left: auto;
+        margin-right: 26px;
+        width: 17px;
+        height: 17px;
+    }
+
+    .main__info div.container>p:nth-of-type(2) {
+        font-size: 30px;
+        max-width: 280px;
+        text-align: center;
+    }
+
+    .main__info div.container>p:nth-of-type(3) {
+        font-size: 13px;
+        max-width: 280px;
+        text-align: center;
+    }
+
+    .main__info div.container>div {
+        position: absolute;
+        bottom: -50px;
+        align-items: center;
+    }
+
+    .main__info div.container div button {
+        width: 280px;
+        max-width: 280px;
+    }
+
+    .main__info div.container>div p {
+        text-align: center;
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .types__of__merch {
+        padding-top: 95px;
+    }
+
+    .types__of__merch div.container>p:first-of-type {
+        text-align: center;
+    }
+
+    .types__of__merch div.container>p:nth-of-type(2) {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .types {
+        row-gap: 24px;
+        column-gap: 7px;
+    }
+
+    .types>div p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .types>div>div {
+        height: 95px;
+        border-radius: 8px;
+    }
+
+    .short__info div.container>div {
+        row-gap: 34px;
+        margin-top: 50px;
+    }
+
+    .short__info div.container>div>div>p:nth-of-type(2) {
+        font-size: 15px;
+    }
+
+
+}

@@ -1,0 +1,20 @@
+@media all and (max-width: 474px){
+    .container{
+        max-width: 320px;
+    }
+
+    .main_info{
+        position: relative;
+    }
+
+    .main__page {
+        height: 532px;
+    }
+
+    .main__page{
+        background: url('../../images/klipartz.png') no-repeat right -30px bottom, linear-gradient(32deg, rgba(151, 150, 240, 1) 0%, rgba(251, 199, 212, 1) 100%);
+        background-size: 340px 361px, cover;
+    }
+
+
+}

@@ -1,0 +1,25 @@
+@media all and (max-width: 1530px){
+    .container{
+        max-width: 1200px;
+    }
+
+    .main__page{
+        margin-bottom: 0;
+    }
+    
+    .main__info div.container>p:nth-of-type(2) {
+        width: 582px;
+    }
+
+    div.container>p:nth-of-type(4) {
+        width: 582px;
+    }
+
+    .main__info div.container>div {
+        margin-top: 35px;
+    }
+
+    .types{
+        column-gap: 15px;
+    }
+}
