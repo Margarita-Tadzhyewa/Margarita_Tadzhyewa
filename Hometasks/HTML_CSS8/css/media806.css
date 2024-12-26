@@ -18,6 +18,10 @@
         float: none;
     }
 
+    .article div, .rubr div{
+        margin-left: 0px;
+    }
+
     select[name="rubrika"]{
         margin-top: 10px;
         float: none;
@@ -46,6 +50,7 @@
     }
 
     .publish>div{
+        margin-left: 0;
         width: 100%;
         float: none;
     }
@@ -53,7 +58,7 @@
 
     .comment>div{
         width: auto;
-        float: left;
+        margin-left: 0;
     }
 
     label.comment>p{

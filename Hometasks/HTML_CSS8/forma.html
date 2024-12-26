@@ -13,16 +13,23 @@
     <form action="https://fe.it-academy.by/TestForm.php" target="_blank" method="get" class="form">
         <p> Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
 
-        <label class="article"> <p>Название статьи: </p><input type="text" name="name_st" class="name_of_article"></label>
+        <label class="article"> 
+            <p>Название статьи: </p>
+            <div>
+                <input type="text" name="name_st" class="name_of_article">
+            </div>
+        </label>
 
         <label class="rubr"> 
             <p>Рубрика:</p> 
-            <select name="rubrika">
-                <option value="programming">программирование</option>
-                <option value="marketing">маркертинг</option>
-                <option value="learning">изучение</option>
-                <option value="design">дизайн</option>
-            </select>
+            <div>
+                <select name="rubrika">
+                    <option value="programming">программирование</option>
+                    <option value="marketing">маркертинг</option>
+                    <option value="learning">изучение</option>
+                    <option value="design">дизайн</option>
+                </select>
+            </div>
         </label>
 
         <label class="publish">
