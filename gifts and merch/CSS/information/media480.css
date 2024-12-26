@@ -1,0 +1,49 @@
+@media all and (max-width: 480px){
+    .container{
+        max-width: 320px;
+    }
+
+    .main__page{
+        height: 681px;
+        background: url('../../images/people.png') no-repeat right -25px bottom, linear-gradient(32deg, rgba(151, 150, 240, 1) 0%, rgba(251, 199, 212, 1) 100%);
+        background-size: 402px 238px, cover;
+    }
+
+    .main__info div.container>p:nth-of-type(2) {
+        margin-top: 28px;
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .main__info div.container>p:nth-of-type(3) {
+        margin-top: 20px;
+        text-align: center;
+        position: static;
+        font-size: 15px;
+    }
+
+    .three_info {
+        padding: 43px 0 52px 0;
+    }
+
+    .pop_questions div.container>div:first-of-type {
+        margin-bottom: 44px;
+    }
+
+    .pop_questions div.container>div:first-of-type>p {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+
+    .material:last-of-type{
+        display: none;
+    }
+
+    .material_button>p {
+        font-size: 25px;
+    }
+
+    #toggleButton {
+        width: 27px;
+    }
+}

@@ -1,0 +1,72 @@
+@media all and (max-width: 768px){
+    .container{
+        max-width: 480px;
+    }
+
+    .main__page {
+        margin-bottom: 5px;
+        position: relative;
+        height: 356px;
+        margin-bottom: 228px;
+        background: url('../../images/klipartz.png') no-repeat right -88px bottom, linear-gradient(32deg, rgba(151, 150, 240, 1) 0%, rgba(251, 199, 212, 1) 100%);
+        background-size: 286px 272px, cover;
+    }
+
+    .main__info div.container{
+        position: relative;
+    }
+
+    .main__info div.container>p:nth-of-type(3), .main__info div.container>p:nth-of-type(4) {
+        max-width: 480px;
+        position: absolute;
+        bottom: -315px;
+    }
+
+    .main__info div.container>p:nth-of-type(2) {
+        padding-top: 42px;
+    }
+
+    .main__info div.container>div {
+        position: absolute;
+        bottom: -347px;
+    }
+
+    .types_of_products {
+        padding: 13px 0 52px 0;
+    }
+
+    .nav_products>p{
+        flex: 0 1 140px;
+        text-align: start;
+        padding: 4px 11px;
+        padding-left: 0;
+        color: #524983;
+        font-size: 20px;
+    }
+
+    .nav_products>p:hover{
+        transform: scale(1.2);
+        font-weight: 500;
+    }
+
+    .main__info div.container>div {
+        display: none;
+    }
+
+    .product_card {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        column-gap: 4.8%;
+    }
+
+    [alt='clothes'] {
+        width: 154px;
+        height: 188px;
+    }
+
+    .product_card {
+        padding-bottom: 27px;
+    } 
+
+}

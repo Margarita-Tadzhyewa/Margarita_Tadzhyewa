@@ -1,0 +1,239 @@
+/* Полоска навигации */
+
+.overlay {
+    z-index: 0;
+}
+
+.main__info div.container>p:first-of-type{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.main__info div.container>p:first-of-type>a:first-of-type{
+    color: #7981ad;;
+}
+
+.main__info div.container>p:first-of-type>a:nth-of-type(2){
+    color: #3c336c;;
+}
+
+.main__info div.container>p:nth-of-type(2){
+    max-width: 747px;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #272525;
+}
+
+.main__info div.container>p:nth-of-type(3), .main__info div.container>p:nth-of-type(4){
+    margin-top: 20px;
+    max-width: 638px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #454747;
+}
+
+.main__info div.container>p:nth-of-type(4){
+    margin-top: 0;
+}
+
+.main__info div.container div button{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+    padding: 18px 52px 20px 52px;
+    border-radius: 60px;
+    width: 245px;
+    height: 60px;
+    cursor: pointer;
+    background: #3c336c;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+    transition: .5s;
+}
+
+.main__info div.container div button:hover{
+    color: #fff;
+    background: #2b254f;
+}
+
+.main__info div.container>div{
+    display: flex;
+    max-width: 497px;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.main__info div.container>div p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #3c336c;
+}
+
+/* [alt="klipartz"]{
+    position: absolute;
+    right: -161px;
+    position: absolute;
+    bottom: -163px;
+}
+
+[alt="klipartz"]{
+    mask-image: url('../../images/svg.svg');
+} */
+
+
+
+
+
+/* .types__of__merch{
+    height: 735px;
+} */
+
+.types__of__merch{
+    padding-top: 80px;
+}
+
+.types__of__merch div.container>p:first-of-type{
+    font-weight: 700;
+    font-size: 48px;
+    color: #272525;
+}
+
+.types__of__merch div.container>p:nth-of-type(2){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.07em;
+    text-transform: lowercase;
+    color: #454747;
+}
+
+.types{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 43px;
+}
+
+
+.types>div>div{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    background: url('../../images/Magic_Mug.jpg') no-repeat center center;
+    background-size: cover;
+    transition: .4s;
+}
+
+.types>div p{
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 105%;
+    text-align: center;
+    color: #272525;
+    transition: .4s;
+}
+
+.types>div p:hover{
+    color: #3c336c ;
+}
+
+.types>div>div:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 8px -4px rgba(26, 32, 44, 0.04), 0 16px 22px -8px rgba(82, 73, 131, 0.1);
+    /* box-shadow: 0px 7px 33px -4px rgba(129,129,217,0.62);
+    -webkit-box-shadow: 0px 7px 33px -4px rgba(129,129,217,0.62);
+    -moz-box-shadow: 0px 7px 33px -4px rgba(129,129,217,0.62);  */
+
+    /* box-shadow: 0px 7px 33px -4px rgba(39,37,37,0.62);
+    -webkit-box-shadow: 0px 7px 33px -4px rgba(39,37,37,0.62);
+    -moz-box-shadow: 0px 7px 33px -4px rgba(39,37,37,0.62); */
+}
+
+/* Кнопка для прокрутки вверх */
+#arrowTop {
+    height: 50px;
+    width: 50px;
+    background: #1fab8a;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    cursor: pointer;
+    box-shadow: 0 6px 25px 0 rgba(121, 129, 173, 0.45);
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+/* .short__info{
+    padding-bottom: 97px;
+}
+
+.short__info div.container>div{
+    margin-top: 97px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 10.3%;
+    row-gap: 44px;
+}
+
+.short__info div.container>div>div>p:first-of-type{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    color: #272525;
+    margin-bottom: 20px;
+}
+
+.short__info div.container>div>div>p:nth-of-type(2){
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #454747;
+} */
+
+/* .short__info div.container>div>p:nth-of-type(1),p:nth-of-type(3){
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    color: #272525;
+}
+
+.short__info div.container>div>p:nth-of-type(2){
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    color: #272525;
+} */
+
+/* .short__info div.container>div>div:first-of-type>p:last-of-type>span:first-of-type{
+    font-weight: 600;
+}
+
+.short__info div.container>div>div:first-of-type>p:last-of-type>span:last-of-type{
+    color: #524983;
+} */
+
+
+
+
+
+
+

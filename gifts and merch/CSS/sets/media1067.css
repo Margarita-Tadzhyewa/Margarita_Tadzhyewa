@@ -1,0 +1,37 @@
+@media all and (max-width: 1067px){
+    .container{
+        max-width: 1000px;
+    }
+
+    .main__page{
+        margin-bottom: 41px;
+        height: 808px;
+        background: url('../../images/ready_box.png') no-repeat right -165px bottom -95px, linear-gradient(32deg, rgba(151, 150, 240, 1) 0%, rgba(251, 199, 212, 1) 100%);
+        background-size: 747px 514px, cover;
+    }
+
+    .main__info div.container>p:nth-of-type(2) {
+        max-width: 533px;
+    }
+
+    .main__info div.container>p:nth-of-type(3) {
+        max-width: 543px;
+    }
+    .main__info div.container div button {
+        padding: 18px 27px 20px 27px;
+        width: 245px;
+    }
+
+    .main__info div.container>div {
+        margin-top: 34px;
+    }
+
+    .product_card{
+        margin-top: 21px;
+        margin-bottom: 31px;
+    }
+
+    [alt="box"] {
+        top: 3px;
+    }
+}

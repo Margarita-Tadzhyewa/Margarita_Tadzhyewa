@@ -1,0 +1,28 @@
+@media all and (max-width: 1530px){
+    .container{
+        max-width: 1200px;
+    }
+
+    .main__info div.container>p:first-of-type {
+        margin-top: 40px;
+    }
+    
+    .main__info div.container>p:nth-of-type(3), .main__info div.container>p:nth-of-type(4) {
+        margin-top: 20px;
+        max-width: 504px;
+    }
+
+    .product_card{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .product_card>div.product_card_item:last-of-type, .product_card>div.product_card_item:nth-of-type(7){
+        display: none;
+    }
+
+    [alt='clothes'] {
+        width: 223px;
+        height: 279px;
+    }
+}

@@ -1,0 +1,376 @@
+.order_form{
+    background: #FAFAFA;
+}
+
+.f_form{
+    padding: 136px 0 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.f_form>p:first-of-type{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #222227;
+    max-width: 558px;
+    margin-bottom: 17px;
+}
+
+.f_form>p:first-of-type>span{
+    text-transform: uppercase;
+}
+
+.f_form>p:nth-of-type(2){
+    max-width: 558px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.07em;
+    color: #454747;
+}
+
+.form_for_order{
+    margin-top: 92px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+}
+
+.form_for_order>p{
+    font-weight: 600;
+    font-size: 24px;
+    color: #222227;
+    max-width: 558px;
+}
+
+.form_for_order>p span{
+    color: #1fab8a;
+}
+
+.form_for_order form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_for_order form>input{
+    padding-bottom: 5px;
+    align-self: flex-end;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #272525;;
+    font-weight: 400;
+    font-size: 16px;
+    color: #454747;
+    width: 23.5%;
+}
+
+.form_for_order form>button{
+    border-radius: 60px;
+    padding: 16px 0;
+    width: 280px;
+    height: 60px;
+    background: #1fab8a;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+    transition: .4s;
+}
+
+.form_for_order form>button:hover{
+    background: #288771;
+}
+
+[alt="lamp"]{
+    top: 0;
+    right: 220px;
+    width: 432px;
+    height: 421px;
+    position: absolute;
+}
+
+[alt="rocket1"]{
+    right: 771px;
+    bottom: 279px;
+    position: absolute;
+}
+
+[alt="rocket 2"]{
+    top: 33px;
+    right: 0;
+    position: absolute;
+}
+
+[alt="curve"]{
+    right: 737px;
+    bottom: 215px;
+    position: absolute;
+}
+
+
+@media all and (max-width: 1530px){
+    .container{
+        max-width: 1200px;
+    }
+
+    [alt="lamp"] {
+        top: 0;
+        right: 54px;
+        width: 300px;
+        height: 361px;
+    }
+
+    [alt="rocket1"] {
+        right: 317px;
+        bottom: 279px;
+        width: 79px;
+        height: 111px;
+    }
+
+    [alt="rocket 2"]{
+        width: 79px;
+        height: 111px;
+        top: 33px;
+        right: 0;
+    }
+
+    [alt="curve"] {
+        right: 253px;
+    }
+
+    .form_for_order form>input {
+        font-size: 14px;
+    }
+
+    .form_for_order form>input {
+        width: 19.5%;
+    }
+}
+
+    @media all and (max-width: 1067px){
+        .container{
+            max-width: 1000px;
+        }
+
+        
+        [alt="lamp"] {
+            top: 0;
+            right: -57px;
+            width: 339px;
+            height: 365px;
+        }
+
+        [alt="rocket1"] {
+            right: 275px;
+            bottom: 420px;
+            width: 55px;
+            height: 89px;
+        }
+
+        [alt="curve"] {
+            bottom: 383px;
+            width: 54px;
+            right: 233px;
+        }
+
+        [alt="rocket 2"] {
+            top: 495px;
+            right: 35px;
+        }
+
+        .form_for_order {
+            column-gap: 89px;
+            flex-direction: row;
+        }
+
+        .form_for_order>p {
+            max-width: 300px;
+        }
+
+        .form_for_order form{
+            flex-direction: column;
+        }
+
+        .form_for_order form>button {
+            width: 280px;
+        }
+
+        .form_for_order form>input{
+            font-size: 16px;
+            margin-bottom: 35px;
+            align-self: flex-start;
+            width: 336px;
+        }
+}
+
+@media all and (max-width: 940px){
+    .container{
+        max-width: 768px;
+    }
+
+    
+    .f_form {
+        padding: 77px 0 100px 0;
+    }
+
+    .f_form>p:first-of-type {
+        font-weight: 700;
+        font-size: 28px;
+        max-width: 451px;
+    }
+
+    .f_form>p:nth-of-type(2) {
+        max-width: 451px;
+        font-size: 16px;
+    }
+
+    .form_for_order {
+        margin-top: 137px;
+    }
+    
+    .form_for_order form>input {
+        margin-bottom: 33px;
+        width: 340px;
+    }
+
+    [alt="lamp"]{
+        top: 0;
+        right: -55px;
+        width: 297px;
+        height: 340px;
+    }
+
+    [alt="rocket1"] {
+        right: 337px;
+        bottom: 385px;
+        width: 42px;
+        height: 67px;
+    }
+
+    [alt="rocket 2"] {
+        width: 60px;
+        height: 84px;
+        top: 521px;
+        right: 35px;
+        left: 0;
+    }
+
+    [alt="curve"] {
+        bottom: 361px;
+        width: 42px;
+        right: 309px;
+    }
+
+}
+
+@media all and (max-width: 768px){
+    .container{
+        max-width: 480px;
+    }
+
+    
+    .f_form {
+        padding: 280px 0 49px 0;
+    }
+
+    .form_for_order {
+        margin-top: 65px;
+        flex-direction: column;
+        row-gap: 65px;
+    }
+
+    .form_for_order>p {
+        max-width: 407px;
+    }
+
+    [alt="lamp"]{
+        top: 0;
+        right: 118px;
+        width: 243px;
+        height: 237px;
+    }
+
+    [alt="rocket1"] {
+        top: 161px;
+        right: 65px;
+        bottom: 0px;
+        width: 42px;
+        height: 67px;
+    }
+
+    [alt="rocket 2"] {
+        width: 60px;
+        height: 84px;
+        top: 187px;
+        right: 379px;
+        left: 0;
+    }
+
+    [alt="curve"] {
+        top: 440px;
+        bottom: 0;
+        width: 103px;
+        right: 175px;
+    }
+
+}
+
+
+@media all and (max-width: 480px){
+    .container{
+        max-width: 320px;
+    }
+    .f_form {
+        padding: 280px 0 86px 0;
+    }
+    
+    .f_form>p:first-of-type {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .f_form>p:nth-of-type(2) {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 51px;
+    }
+
+    .form_for_order>p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .form_for_order {
+        row-gap: 40px;
+    }
+
+    [alt="lamp"] {
+        right: 25px;
+    }
+
+    [alt="rocket1"] {
+        top: 207px;
+        right: 21px;
+    }
+
+    [alt="rocket 2"] {
+        width: 60px;
+        height: 80px;
+        top: 218px;
+        right: 374px;
+        left: -19px;
+    }
+
+    [alt="curve"] {
+        top: 496px;
+        bottom: 0;
+        width: 86px;
+        right: 100px;
+    }
+
+}
+
+

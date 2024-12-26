@@ -1,0 +1,475 @@
+.main__page{
+    margin-bottom: 0px;
+    height: auto;
+    background: url('../../images/fashion.png') no-repeat right 45px bottom, linear-gradient(32deg, rgba(151, 150, 240, 1) 0%, rgba(251, 199, 212, 1) 100%);
+    background-size: 885px 689px, cover;
+    padding-bottom: 170px;
+}
+
+.main__info div.container>p:first-of-type{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #7981ad;
+    margin: 30px 0 20px 0;
+}
+
+.main__info div.container>p:nth-of-type(2){
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #272525;
+    max-width: 620px;
+    margin-bottom: 10px;
+}
+
+.main__info div.container>p:nth-of-type(3){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.07em;
+    color: #272525;
+    margin-bottom: 58px;
+    max-width: 620px;
+}
+
+.our_adv{
+    display: flex;
+    column-gap: 12px;
+}
+
+.our_adv>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our_adv>div p{
+    font-weight: 600;
+    font-size: 21px;
+    text-align: center;
+    color: #272525;
+    margin-top: 9px;
+    max-width: 219px;
+    text-align: center;
+}
+
+.our_adv>div p span{
+    font-weight: 800;
+}
+
+[alt="circle"]{
+    width: 109px;
+    height: 94px;
+}
+
+[alt="shopper_2"], .main__page div.container>p:nth-of-type(4){
+    display: none;
+}
+
+/* Наиболее популярные товары */
+.most_popular{
+    background: linear-gradient(180deg, rgba(238,241,246,1) 0%, rgba(245,245,245,1) 100%);
+    padding: 20px 0 80px 0;
+}
+
+.liked_products>p:first-of-type{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #272525;
+}
+
+.most_popular div.container>div:first-of-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.liked_products>p:nth-of-type(2){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.07em;
+    text-transform: lowercase;
+    color: #454747;
+}
+
+.liked_products{
+    position: relative;
+}
+
+.liked_products svg{
+    right: 94px;
+    top: 8px;
+    position: absolute;
+}
+
+.show_allproducst{
+    display: flex;
+    column-gap: 20px;
+}
+
+.show_allproducst>p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.07em;
+    color: #272525;
+}
+
+.mostpop_products{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    grid-template-rows: 312px 180px;
+    gap: 15px;
+}
+
+.mostpop_products>div:first-of-type{
+    background: url('../../images/shop_1.jpg') no-repeat center center;
+    background-size: cover; 
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.mostpop_products>div:nth-of-type(2){
+    background: url('../../images/Magic_Mug.jpg') no-repeat center center;
+    border-radius: 15px;
+    background-size: cover;
+    transition: .4s;
+}
+
+.mostpop_products>div:nth-of-type(3){
+    background: url('../../images/thermos.jpg') no-repeat center center;
+    border-radius: 15px;
+    background-size: cover;
+    transition: .4s;
+}
+
+.mostpop_products>div:nth-of-type(4){
+    background: url('../../images/shirt.jpg') no-repeat center center;
+    border-radius: 15px;
+    background-size: cover;
+    transition: .4s;
+}
+
+.mostpop_products>div:hover{
+    box-shadow: 0 8px 8px -4px rgba(26, 32, 44, 0.04), 0 16px 22px -8px rgba(82, 73, 131, 0.1);
+}
+
+.prod_1{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.prod_2{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.prod_3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.prod_4{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+[alt="shop_1"]{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.most_popular div.container>p{
+    margin-left: 28%;
+    margin-top: 22px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 105%;
+    color: #272525;
+}
+
+.show_allproducst_bottom{
+    display: none;
+}
+
+/* Блок CREATIVE */
+.creative{
+    padding-top: 77px;
+    background: #F5F5F5
+}
+
+.creative_box{
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 210px;
+}
+
+.creative_box>p:first-of-type{
+    max-width: 958px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #272525;
+    margin-bottom: 23px;
+}
+
+.creative_box>p:nth-of-type(2){
+    max-width: 592px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.07em;
+    color: #454747;
+    margin-bottom: 36px;
+}
+
+.put_your_contact{
+    display: flex;
+    column-gap: 29px;
+}
+
+.creative_box>div>p{
+    max-width: 300px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #222227;
+}
+
+.put_your_contact button:first-of-type {
+    border-radius: 60px;
+    padding: 16px 0;
+    width: 280px;
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background: #272525;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.put_your_contact button:nth-of-type(2){
+    border: 1px solid #eef1f6;
+    border-radius: 60px;
+    padding: 16px 0;
+    width: 280px;
+    height: 60px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #eef1f6;
+    transition: .5s;
+}
+
+.put_your_contact button:first-of-type:hover{
+    box-shadow: 0 8px 8px -4px rgba(26, 32, 44, 0.04), 0 16px 22px -8px rgba(82, 73, 131, 0.1);
+    background: #288771;
+}
+
+.put_your_contact button:nth-of-type(2):hover{
+    box-shadow: 0 8px 8px -4px rgba(26, 32, 44, 0.04), 0 16px 22px -8px rgba(82, 73, 131, 0.1);
+    background: #bfc4cd;
+}
+
+[alt="creative"]{
+    margin: 0 0 10px 195px;
+}
+
+[alt="box"]{
+    position: absolute;
+    top: 31px;
+    right: 0;
+    width: 692px;
+    height: 619px;
+}
+
+/* Блок с другой продукцией */
+.other_products div.container{
+    overflow-x: hidden;
+}
+
+.other_products div.container>div{
+    padding: 100px 0 75px 0;
+    column-gap: 30px;
+    display: flex;
+}
+
+.img_circle{
+    position: relative;
+    border-radius: 15px;
+    width: 50%;
+    height: 532px;
+    background: url('../../images/Sweater.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.other_ready_pr{
+    width: 50%;
+}
+
+.other_ready_pr>p:first-of-type{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    color: #222227;
+    max-width: 867px;
+    margin: 47px 0 30px 0;
+}
+
+.other_ready_pr>p:nth-of-type(2){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.07em;
+    color: #454747;
+    margin-bottom: 40px;
+    max-width: 576px;
+}
+
+.other_ready_pr>div{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Слайдер с фирмами */
+.slaider {
+    position: relative;
+    overflow: hidden;
+    width: 89%;
+}
+
+.arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.slaider_img{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-images{
+    transition: transform 0.5s ease-in-out;
+}
+
+.slaider_img div:first-of-type{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.slaider_pages{
+    align-items: center;
+    display: flex;
+    column-gap: 9px;
+}
+
+.slaider_pages>p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 105%;
+    color: #7981ad;
+}
+
+[alt="1"], [alt="2"], [alt="3"], [alt="4"]{
+    width: 166px;
+    height: 136px;
+    max-width: 100%;
+    height: auto;
+}
+
+[alt="Ellipse_big"]{
+    position: absolute;
+    top: -76px;
+    left: -81px;
+    z-index: -1;
+    width: 285px;
+}
+
+[alt="Ellipse_small"]{
+    position: absolute;
+    bottom: -50px;
+    right: -44px;
+    z-index: -1;
+    width: 101px;
+}
+
+
+/* Форма для заказа мерча */
+.order_form{
+    background: url('../../images/f_rom_bg.svg') no-repeat center center;
+    background-size: 100% 705px;
+}
+
+/* С нами сотрудничают */
+.cooperation div.container{
+    position: relative;
+}
+
+.cooperation div.container>p{
+    font-weight: 700;
+    font-size: 48px;
+    color: #222227;
+}
+
+.slider-container {
+    margin: 78px 78px 132px 78px;
+    position: relative;
+    overflow: hidden;
+}
+
+.logos-slider {
+    display: flex;
+    gap: 90px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.logos-slider img {
+    max-width: 200px;
+    height: auto;
+}
+
+#prev, #next {
+    position: absolute;
+    z-index: 4;
+    top: 76%;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+/* Кнопка для прокрутки вверх */
+#arrowTop {
+    height: 50px;
+    width: 50px;
+    background: #1fab8a;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    cursor: pointer;
+    box-shadow: 0 6px 25px 0 rgba(121, 129, 173, 0.45);
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 50px;
+}

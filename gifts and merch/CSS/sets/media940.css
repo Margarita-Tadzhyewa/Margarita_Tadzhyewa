@@ -1,0 +1,65 @@
+@media all and (max-width: 940px){
+    .container{
+        max-width: 768px;
+    }
+
+    .main__page{
+        margin-bottom: 41px;
+        height: 583px;
+        background: url('../../images/box_reverse.png') no-repeat right -14px bottom -95px, linear-gradient(32deg, rgba(151, 150, 240, 1) 0%, rgba(251, 199, 212, 1) 100%);
+        background-size: 552px 619px, cover;
+    }
+
+    .main__info div.container>p:first-of-type {
+        display: none;
+    }
+
+    .main__info div.container>p:nth-of-type(2) {
+        margin-top: 48px;
+        max-width: 482px;
+        font-size: 36px;
+    }
+
+    .main__info div.container>p:nth-of-type(3) {
+        max-width: 369px;
+        font-size: 16px;
+    }
+
+    .main__info div.container>div {
+        margin-top: 38px;
+    }
+
+    .main__info div.container div button {
+        font-size: 16px;
+    }
+
+    .main__info div.container>div {
+        column-gap: 20px;
+    }
+
+    .product_card>div.product_card_item:last-of-type{
+        display: block;
+    }
+
+    .product_card{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 20px;
+    }
+
+    .short__info{
+        display: none;
+    }
+
+    .creative {
+        margin-bottom: 89px;
+    }
+
+    [alt="box"] {
+        position: absolute;
+        top: 35px;
+        right: -110px;
+        width: 342px;
+        height: 304px;
+    }
+}

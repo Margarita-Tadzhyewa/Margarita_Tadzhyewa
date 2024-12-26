@@ -1,0 +1,38 @@
+@media all and (max-width: 1530px){
+    .container{
+        max-width: 1200px;
+    }
+
+    .main__page{
+        height: 808px;
+        background: url('../../images/people.png') no-repeat right -279px bottom, linear-gradient(32deg, rgba(151, 150, 240, 1) 0%, rgba(251, 199, 212, 1) 100%);
+        background-size: 883px 561px, cover;
+    }
+
+    .main__info div.container>p:nth-of-type(2) {
+        max-width: 510px;
+    }
+
+    .main__info div.container>p:nth-of-type(3) {
+        margin-top: 20px;
+        max-width: 543px;
+    }
+
+    .main__info div.container>div {
+        column-gap: 30px;
+        margin-top: 41px;
+    }
+
+    .pop_questions div.container>div:first-of-type{
+        width: 56.2%;
+    }
+
+
+    .conntacts div.container>div {
+        column-gap: 9.5%;
+    }
+
+    [alt="i"]{
+        display: none;
+    }
+}
