@@ -6,32 +6,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Анимация Спрайта</title>
+    <title>Document</title>
     <style>
         .sprite-container {
-            height: 100vh;
+            height: 100vh; 
             display: flex;
-            align-items: center;
+            align-items: center; 
         }
 
         .sprite-image {
-            height: 123px;
-            width: 70px;
-            background: url('smur-sprite.png') 0px 0px;
-            animation: play 0.8s steps(16) infinite , step 10s linear infinite;
-            position: absolute;
+            height: 105px; 
+            width: 100px; 
+            background: url('https://d-nik.pro/images/stories/santa.jpg') 0px 0px;
+            animation: play 0.8s steps(6) infinite,
+                step 15s linear infinite; 
+            position: absolute; 
             left: 0;
         }
 
         @keyframes play {
             100% {
-                background-position: -1135px;
+                background-position: -600px; 
             }
         }
 
         @keyframes step {
             100% {
-                left: 100%;
+                left: 100%; /*передвижение влево до самого конца*/
             }
         }
     </style>
@@ -43,7 +44,6 @@
     <div class="sprite-container">
         <div class="sprite-image"></div>
     </div>
-
 </body>
 
 </html>
